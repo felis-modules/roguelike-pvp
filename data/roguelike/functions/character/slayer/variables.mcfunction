@@ -8,5 +8,5 @@ scoreboard players add @a sl_dark_rune 0
 
 ## 스킬 쿨 (cool1은 광폭화)
 
-data merge storage minecraft:rp {rp_sl_cool1:25}
-data merge storage minecraft:rp {rp_sl_cool2:16}
+data merge storage roguelike:rp {rp_sl_cool1:25}
+data merge storage roguelike:rp {rp_sl_cool2:16}
