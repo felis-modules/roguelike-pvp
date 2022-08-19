@@ -1,0 +1,2 @@
+execute if entity @s[nbt={SelectedItem:{tag:{artech:1b}}}] run scoreboard players remove @s ar_techshot 1
+execute if entity @s[nbt={SelectedItem:{tag:{arpoison:1b}}}] run scoreboard players remove @s ar_pdart 1

@@ -9,6 +9,7 @@ execute at @a[scores={SHIELD_BLOCKED=1..}] run playsound minecraft:item.shield.b
 # Reset Event Listeners
 # THIS PROCEDURE MUST BE DONE FINALLY
 
+scoreboard players set @a RP_USED_CBOW 0
 scoreboard players set @a RP_USED_CSTICK 0
 scoreboard players set @a RP_USED_FSTICK 0
 scoreboard players set @a SHIELD_BLOCKED 0
