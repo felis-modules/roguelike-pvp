@@ -1,3 +1,3 @@
 # say hit me
 
-function roguelike:system/entity_hit/entity_hit
+function roguelike:entity_hit

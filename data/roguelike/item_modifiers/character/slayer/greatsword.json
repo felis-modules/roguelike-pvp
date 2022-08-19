@@ -58,6 +58,6 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:1121,Unbreakable:1b,HideFlags:4}"
+    "tag": "{slsword:1b,CustomModelData:1121,Unbreakable:1b,HideFlags:4}"
   }
 ]

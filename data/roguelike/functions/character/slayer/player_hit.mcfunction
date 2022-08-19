@@ -1,0 +1,1 @@
+execute store result score .drune sl_dark_rune run data get entity @s SelectedItem.tag.darkrune
