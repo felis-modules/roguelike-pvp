@@ -16,12 +16,12 @@ scoreboard objectives add RP_COOL3 dummy
 
 
 ## Detect Damage Taken Player
-scoreboard objectives add DMG_TAKEN minecraft.custom:damage_taken
-scoreboard objectives add DMG_DEALT minecraft.custom:damage_dealt
+# scoreboard objectives add DMG_TAKEN minecraft.custom:damage_taken
+# scoreboard objectives add DMG_DEALT minecraft.custom:damage_dealt
 scoreboard objectives add SHIELD_BLOCKED minecraft.used:shield
 
 function roguelike:commands/variables
 
 function roguelike:character/load
 
-function roguelike:system/schedule
+function roguelike:schedule

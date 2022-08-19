@@ -1,4 +1,4 @@
 function roguelike:character/schedule
 
 # schedule recursive function
-schedule function roguelike:system/schedule 1s
+schedule function roguelike:schedule 1s
