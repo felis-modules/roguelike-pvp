@@ -1,0 +1,2 @@
+tellraw @a [{"text":"[Inventory Parser] ","color":"gray","bold":false,"italic":false},{"text":"Update Error : Cannot match queried integer to the player's inventory. Did the player has the item which has the tag named \"{invparser:#}?\"","color":"red","bold":false,"italic":false}]
+data modify storage invparse:parsed Item set value 0
