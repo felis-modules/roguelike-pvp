@@ -21,7 +21,7 @@ scoreboard objectives add RP_COOL3 dummy
 # scoreboard objectives add DMG_DEALT minecraft.custom:damage_dealt
 scoreboard objectives add SHIELD_BLOCKED minecraft.used:shield
 
-function roguelike:commands/variables
+function roguelike:commands/load
 
 function roguelike:character/load
 
