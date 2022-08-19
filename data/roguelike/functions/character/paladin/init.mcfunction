@@ -1,4 +1,4 @@
-function roguelike:system/reset_player
+function roguelike:character/reset_player
 
 item replace entity @s hotbar.0 with iron_sword
 execute if entity @s[name=!"Runky_Wanderer"] run item modify entity @s hotbar.0 roguelike:character/paladin/sword
@@ -14,5 +14,5 @@ item modify entity @s hotbar.1 roguelike:character/paladin/black_axe
 item replace entity @s hotbar.2 with wooden_sword
 item modify entity @s hotbar.2 roguelike:character/paladin/curse
 
-function roguelike:system/reset_tag
+function roguelike:character/reset_tag
 tag @s add paladin

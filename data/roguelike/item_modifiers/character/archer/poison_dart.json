@@ -1,0 +1,54 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "독 다트 발사대",
+      "color": "aqua",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "맹독 다트 화살 발사용 활이다.",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "name": "",
+        "amount": -0.25,
+        "operation": "multiply_base",
+        "id": "1653ff67-a600-4d40-ac23-4cf8c0c981f2",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "name": "",
+        "amount": -0.25,
+        "operation": "multiply_base",
+        "id": "b3f4ba70-d977-4079-81c5-a1658b5f7408",
+        "slot": "offhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{HideFlags:7,Unbreakable:1b,CustomModelData:1413}"
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:piercing": 3
+    },
+    "add": false
+  }
+]
