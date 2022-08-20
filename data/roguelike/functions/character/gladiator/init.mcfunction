@@ -1,11 +1,12 @@
 function roguelike:character/reset_player
+function roguelike:character/gladiator/base
+scoreboard players set @s gl_token 4
 
-item replace entity @s hotbar.0 with carrot_on_a_stick
-item modify entity @s hotbar.0 roguelike
-execute if entity @s[name="lees2541"] run function roguelike:character/slayer/tsumi_sword
+item replace entity @s hotbar.0 with minecraft:carrot_on_a_stick
+item modify entity @s hotbar.0 roguelike:character/gladiator/halburd_off
 
-function roguelike:character/slayer/dark_rune
-function roguelike:character/slayer/blood_potion
+item replace entity @s weapon.offhand with minecraft:carrot_on_a_stick
+item modify entity @s weapon.offhand roguelike:character/gladiator/charge_shield
 
 function roguelike:character/reset_tag
-tag @s add slayer
+tag @s add gladiator

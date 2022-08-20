@@ -1,0 +1,2 @@
+tellraw @a [{"text":"[Inventory Parser] ","color":"gray","bold":false,"italic":false},{"text":"Parsing Hotbar Error : Cannot find the item which you queried in hotbar and lefthand, Did you add your query item the tag named \"{invparser:#}?\"","color":"red","bold":false,"italic":false}]
+data modify storage invparse:parsed Item set value 0

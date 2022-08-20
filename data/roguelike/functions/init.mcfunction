@@ -9,7 +9,7 @@ scoreboard objectives add RP_USED_CBOW minecraft.used:crossbow
 scoreboard objectives add RP_COOL1 dummy
 scoreboard objectives add RP_COOL2 dummy
 scoreboard objectives add RP_COOL3 dummy
-
+scoreboard objectives add RP_HURT_COOL dummy
 
 ## Event Listeners
 

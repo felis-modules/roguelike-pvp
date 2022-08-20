@@ -2,6 +2,7 @@
     "values": [
 	    "roguelike:init",
       "entity_hit_matching:load",
-      "invparse:load"
+      "invparse:load",
+      "cd:load"
     ]
 }

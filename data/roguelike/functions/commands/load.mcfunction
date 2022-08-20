@@ -4,6 +4,7 @@ scoreboard objectives add paladin trigger
 scoreboard objectives add archer trigger
 scoreboard objectives add nuker trigger
 scoreboard objectives add lancer trigger
+scoreboard objectives add gunsa trigger
 scoreboard objectives add get_red trigger
 scoreboard objectives add get_blue trigger
 
@@ -16,6 +17,7 @@ scoreboard players set @a slayer 0
 scoreboard players set @a paladin 0
 scoreboard players set @a archer 0
 scoreboard players set @a nuker 0
+scoreboard players set @a gunsa 0
 scoreboard players set @a lancer 0
 scoreboard players set @a get_red 0
 scoreboard players set @a get_blue 0
@@ -26,6 +28,7 @@ scoreboard players enable @a slayer
 scoreboard players enable @a paladin
 scoreboard players enable @a archer
 scoreboard players enable @a nuker
+scoreboard players enable @a gunsa
 scoreboard players enable @a lancer
 scoreboard players enable @a get_red
 scoreboard players enable @a get_blue
