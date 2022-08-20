@@ -6,6 +6,9 @@ function roguelike:commands/loop
 # Shield block sound
 execute at @a[scores={SHIELD_BLOCKED=1..}] run playsound minecraft:item.shield.block master @a[distance=..30] ~ ~ ~ 1 0.96 0
 
+# custom damage hurt cooltime
+scoreboard players remove @e[scores={RP_HURT_COOL=1..}] RP_HURT_COOL 1
+
 # Reset Event Listeners
 # THIS PROCEDURE MUST BE DONE FINALLY
 

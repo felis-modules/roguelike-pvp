@@ -1,0 +1,15 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "원형 돌격 방패",
+      "color": "aqua",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{charge:1b,HideFlags:7,Unbreakable:1b,CustomModelData:700049}"
+  }
+]

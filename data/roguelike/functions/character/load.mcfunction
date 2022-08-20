@@ -1,4 +1,5 @@
-function roguelike:character/slayer/variables
-function roguelike:character/archer/variables
-function roguelike:character/paladin/variables
-function roguelike:character/assassin/variables
+function roguelike:character/slayer/load
+function roguelike:character/archer/load
+function roguelike:character/paladin/load
+function roguelike:character/assassin/load
+function roguelike:character/gladiator/load

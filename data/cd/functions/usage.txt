@@ -1,0 +1,2 @@
+cd_dmg : dmg calculates with armor
+cd_dmg2 : dmg do not calculates with armor, true damage

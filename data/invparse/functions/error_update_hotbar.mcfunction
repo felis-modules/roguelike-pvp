@@ -1,0 +1,2 @@
+tellraw @a [{"text":"[Inventory Parser] ","color":"gray","bold":false,"italic":false},{"text":"Update Hotbar Error : Cannot match queried integer to the player's hotbar and left hand. Did the player has the item which has the tag named \"{invparser:#}?\"","color":"red","bold":false,"italic":false}]
+data modify storage invparse:parsed Item set value 0
