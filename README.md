@@ -27,7 +27,7 @@ There is an difference with spiral abyss which can reinforce your armor, weapons
 
 > We have minecraft realm server and you should follow latest version(for now 1.19.2).  
 
-Game Version 0.0.0
+Game Version 2.1.0
 
 ## Install
 > *We DO NOT recommend downloading this datapack because its functionalities are not implemented perfectly.*
