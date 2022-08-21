@@ -7,3 +7,8 @@ execute as @a[tag=archer] run function roguelike:character/archer/schedule
 
 function roguelike:character/paladin/global_schedule
 execute as @a[tag=paladin] run function roguelike:character/paladin/schedule
+
+execute as @a[tag=mercenary] run function roguelike:character/mercenary/global_schedule
+execute as @a[tag=mercenary] run function roguelike:character/mercenary/schedule
+execute as @a[tag=assassin] run function roguelike:character/assassin/schedule
+

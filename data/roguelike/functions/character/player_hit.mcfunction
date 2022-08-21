@@ -1,2 +1,3 @@
 function roguelike:character/slayer/player_hit
 function roguelike:character/paladin/player_hit
+function roguelike:character/mercenary/player_hit
