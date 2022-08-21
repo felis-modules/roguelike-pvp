@@ -11,5 +11,5 @@ scoreboard players operation @s cd_armor_e -= @s cd_var
 scoreboard players operation @s cd_armor_e /= 1000 const
 execute if score @s cd_armor_e matches ..0 run scoreboard players add @s cd_armor_e 1
 scoreboard players operation @s cd_dmg -= @s cd_armor_e
-#tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
+# tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
 execute if score @s cd_dmg matches ..0 run scoreboard players add @s cd_dmg 1

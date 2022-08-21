@@ -1,6 +1,7 @@
 scoreboard objectives add HP health
 scoreboard objectives setdisplay belowName HP
 scoreboard objectives modify HP displayname {"translate":"♥","color":"red"}
+gamerule sendCommandFeedback false
 
 ## 스킬 관련
 scoreboard objectives add RP_USED_FSTICK minecraft.used:minecraft.warped_fungus_on_a_stick

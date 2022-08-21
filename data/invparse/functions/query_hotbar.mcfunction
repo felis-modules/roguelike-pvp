@@ -11,7 +11,6 @@ execute store result score #Slot5 invparse run data get entity @s Inventory[{Slo
 execute store result score #Slot6 invparse run data get entity @s Inventory[{Slot:6b}].tag.invparse
 execute store result score #Slot7 invparse run data get entity @s Inventory[{Slot:7b}].tag.invparse
 execute store result score #Slot8 invparse run data get entity @s Inventory[{Slot:8b}].tag.invparse
-execute store result score #Slot9 invparse run data get entity @s Inventory[{Slot:9b}].tag.invparse
 execute store result score #Slotm106 invparse run data get entity @s Inventory[{Slot:-106b}].tag.invparse
 
 # Parsing : parse each slot.
@@ -24,7 +23,6 @@ execute if score .query invparse = #Slot5 invparse run function invparse:parser/
 execute if score .query invparse = #Slot6 invparse run function invparse:parser/slot6
 execute if score .query invparse = #Slot7 invparse run function invparse:parser/slot7
 execute if score .query invparse = #Slot8 invparse run function invparse:parser/slot8
-execute if score .query invparse = #Slot9 invparse run function invparse:parser/slot9
 execute if score .query invparse = #Slotm106 invparse run function invparse:parser/slotm106
 
 execute if score .slot invparse matches -1 run function invparse:error_parse_hotbar

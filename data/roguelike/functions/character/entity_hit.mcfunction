@@ -1,1 +1,0 @@
-function roguelike:character/slayer/player_hurt
