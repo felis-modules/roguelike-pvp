@@ -25,7 +25,7 @@
       {
         "attribute": "minecraft:generic.max_health",
         "name": "",
-        "amount": 2,
+        "amount": 0,
         "operation": "addition",
         "id": "f917020f-c92f-4a05-b534-afb375bb41fb",
         "slot": "legs"
@@ -33,7 +33,7 @@
       {
         "attribute": "minecraft:generic.attack_speed",
         "name": "",
-        "amount": 0.03,
+        "amount": 0,
         "operation": "multiply_base",
         "id": "3ebe733e-3450-4536-bea2-c0e272c483f9",
         "slot": "legs"
@@ -41,7 +41,7 @@
       {
         "attribute": "minecraft:generic.movement_speed",
         "name": "",
-        "amount": 0.01,
+        "amount": 0,
         "operation": "multiply_total",
         "id": "0b4887ae-98ee-419b-8a6f-dbb4c4572feb",
         "slot": "legs"
@@ -49,7 +49,7 @@
       {
         "attribute": "minecraft:generic.attack_damage",
         "name": "",
-        "amount": 0.01,
+        "amount": 0,
         "operation": "multiply_total",
         "id": "fef31bee-b936-4b74-9744-222b2d71b4b7",
         "slot": "legs"
@@ -57,7 +57,7 @@
       {
         "attribute": "minecraft:generic.armor",
         "name": "",
-        "amount": 5,
+        "amount": 0,
         "operation": "addition",
         "id": "6db4efbc-e134-4a1b-a369-1455a0220685",
         "slot": "legs"
@@ -65,7 +65,7 @@
       {
         "attribute": "minecraft:generic.armor_toughness",
         "name": "",
-        "amount": 0.1,
+        "amount": 0,
         "operation": "addition",
         "id": "d9965a4d-afe5-4f8f-9b86-b0499f1778bd",
         "slot": "legs"

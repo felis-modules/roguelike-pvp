@@ -2,8 +2,8 @@ effect give @a[tag=nuker] strength 3 1 true
 effect give @a[tag=nuker] mining_fatigue 3 2 true
 effect give @a[tag=nuker] speed 3 0 true
 effect give @a[tag=nuker] invisibility 3 0 true
-effect give @a[tag=nuker,nbt=!{Inventory:[{id:"minecraft:diamond_helmet",Slot:103b,tag:{hood:1b}}]}] slowness 2 6 true
-effect give @a[tag=nuker,nbt=!{Inventory:[{id:"minecraft:diamond_helmet",Slot:103b,tag:{hood:1b}}]}] weakness 2 10 true
+#effect give @a[tag=nuker,nbt=!{Inventory:[{id:"minecraft:diamond_helmet",Slot:103b,tag:{hood:1b}}]}] slowness 2 6 true
+#effect give @a[tag=nuker,nbt=!{Inventory:[{id:"minecraft:diamond_helmet",Slot:103b,tag:{hood:1b}}]}] weakness 2 10 true
 
 scoreboard players set @a[tag=nuker,scores={nu_potion=0}] nuker_skill 0
 scoreboard players add @a[tag=nuker,scores={nu_potion=1..}] nuker_skill 1
