@@ -12,7 +12,7 @@ execute as @a[scores={get_blue=1..}] run function roguelike:commands/set_armor
 
 execute as @a[scores={give_mana=1..}] run function roguelike:commands/give_mana
 
-execute as @a[scores={gunsa=1..}] run function roguelike:commands/gunsa
+execute as @a[scores={mercenary=1..}] run function roguelike:commands/mercenary
 execute as @a[scores={slayer=1..}] run function roguelike:commands/slayer
 execute as @a[scores={paladin=1..}] run function roguelike:commands/paladin
 execute as @a[scores={archer=1..}] run function roguelike:commands/archer

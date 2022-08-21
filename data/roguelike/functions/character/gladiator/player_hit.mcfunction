@@ -1,1 +1,0 @@
-scoreboard players set @s gl_token_cool 20
