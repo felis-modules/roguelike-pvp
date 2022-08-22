@@ -1,3 +1,15 @@
+
+## calculate resistance buffs on hurtter : editted by roguelike-pvp
+execute store result score .resistance cd_dmg run data get entity @s ActiveEffects[{Id:11}].Amplifier
+
+execute if score .resistance cd_dmg matches 0 run scoreboard players operation @s cd_dmg *= 100 const
+execute if entity @s[nbt={ActiveEffects:[{Id:11,Amplifier:0b}]}] run scoreboard players operation @s cd_dmg *= 80 const
+execute if score .resistance cd_dmg matches 1 run scoreboard players operation @s cd_dmg *= 60 const
+execute if score .resistance cd_dmg matches 2 run scoreboard players operation @s cd_dmg *= 40 const
+execute if score .resistance cd_dmg matches 3 run scoreboard players operation @s cd_dmg *= 20 const
+execute if score .resistance cd_dmg matches 4.. run scoreboard players operation @s cd_dmg *= 0 const
+scoreboard players operation @s cd_dmg /= 100 const
+
 ## calculates the armor if the damage is not penetrating
 execute if score @s cd_dmg matches 1.. if score @s cd_armor matches 1.. run function cd:calc_armor
 execute if score @s cd_dmg2 matches 1.. run scoreboard players operation @s cd_dmg = @s cd_dmg2
@@ -14,8 +26,8 @@ scoreboard players operation @s cd_hp_max += @s cd_abs
 scoreboard players operation @s cd_hp_e -= @s cd_dmg
 scoreboard players operation @s cd_hp_max -= @s cd_hp_e
 scoreboard players operation @s cd_hp_e -= @s cd_abs
-execute if score @s cd_hp_e matches ..0 run kill @s
-
+# execute if score @s cd_hp_e matches ..0 run kill @s
+execute if score @s cd_hp_e matches ..0 run effect give @s instant_damage 1 20 true
 
 
 #execute if score @s cd_abs > @s cd_dmg if score @s cd_dmg matches 1.. run tag @s add cd.takeAbsorptionDamage

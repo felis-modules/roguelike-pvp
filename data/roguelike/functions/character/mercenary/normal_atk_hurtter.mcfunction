@@ -1,5 +1,6 @@
 
 scoreboard players set @s mc_mark1 5
+say hi
 
 execute if entity @s[scores={mc_mark2=1..}] run scoreboard players set .givetoken mc_token 2
 execute if entity @s[scores={mc_mark2=1..}] run scoreboard players set @s mc_mark1 5

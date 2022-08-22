@@ -1,3 +1,14 @@
+
+## calculate resistance buffs on hurtter : editted by roguelike-pvp
+execute store result score .resistance cd_dmg run data get entity @s ActiveEffects[{Id:11}].Amplifier
+scoreboard players operation @s cd_dmg *= 100 const
+execute if score .resistance cd_dmg matches 0 run scoreboard players operation @s cd_dmg *= 80 const
+execute if score .resistance cd_dmg matches 1 run scoreboard players operation @s cd_dmg *= 60 const
+execute if score .resistance cd_dmg matches 2 run scoreboard players operation @s cd_dmg *= 40 const
+execute if score .resistance cd_dmg matches 3 run scoreboard players operation @s cd_dmg *= 20 const
+execute if score .resistance cd_dmg matches 4.. run scoreboard players operation @s cd_dmg *= 0 const
+scoreboard players operation @s cd_dmg /= 100 const
+
 ## calculates the armor if the damage is not penetrating
 execute if score @s cd_dmg matches 1.. if score @s cd_armor matches 1.. run function cd:calc_armor
 scoreboard players operation @s cd_dmg = @s cd_dmg2
