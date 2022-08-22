@@ -7,6 +7,8 @@ tag @s add rattacker
 execute at @s as @e[tag=!rattacker,distance=..3] run scoreboard players add @s RP_HURT_COOL 0
 
 execute at @s if entity @e[tag=!rattacker,distance=..3,scores={RP_HURT_COOL=0}] run scoreboard players set @s mc_ratk_success 1
-
+execute at @s if entity @e[tag=!rattacker,distance=..3,scores={RP_HURT_COOL=0}] run function roguelike:character/mercenary/round_atk/cal_dmg
+# tellraw @a {"score":{"name":".rawdmg","objective":"cd_dmg"}}
 execute at @s as @e[tag=!rattacker,distance=..3,scores={RP_HURT_COOL=0}] run function roguelike:character/mercenary/round_atk/hurt
+
 tag @s remove rattacker

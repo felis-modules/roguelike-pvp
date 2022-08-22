@@ -20,6 +20,7 @@ scoreboard players set 60 const 60
 scoreboard players set 80 const 80
 scoreboard players set 90 const 90
 scoreboard players set 100 const 100
+scoreboard players set 120 const 120
 scoreboard players set 160 const 160
 scoreboard players set 1000 const 1000
 
