@@ -16,3 +16,4 @@ scoreboard players set @a RP_USED_CBOW 0
 scoreboard players set @a RP_USED_CSTICK 0
 scoreboard players set @a RP_USED_FSTICK 0
 scoreboard players set @a SHIELD_BLOCKED 0
+scoreboard players set @a RP_USED_LPOTION 0

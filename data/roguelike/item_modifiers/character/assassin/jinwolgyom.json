@@ -1,0 +1,65 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {
+        "text": "진월겸 (振 越 鎌)",
+        "color": "blue",
+        "bold": true
+      }
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "휘몰아 떨치며 넘나드는 낫",
+          "color": "gray",
+          "bold": true,
+          "extra": [
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:unbreaking": 1
+      }
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "name": "",
+          "amount": -2.23,
+          "operation": "addition",
+          "id": "abdef5da-5afd-4893-acf7-9a2c0ae9ab1b",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "",
+          "amount": 0.05,
+          "operation": "multiply_total",
+          "id": "e3ae90d1-b536-461b-a829-8b99059ecd65",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "name": "",
+          "amount": 3.3,
+          "operation": "addition",
+          "id": "8632ad97-72f4-4a8f-8f1c-dc6f32583492",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:12311}"
+    }
+  ]
+  

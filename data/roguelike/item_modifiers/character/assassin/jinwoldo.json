@@ -28,12 +28,6 @@
       ]
     },
     {
-      "function": "minecraft:set_enchantments",
-      "enchantments": {
-        "minecraft:unbreaking": 1
-      }
-    },
-    {
       "function": "minecraft:set_attributes",
       "modifiers": [
         {
@@ -61,6 +55,10 @@
           "slot": "mainhand"
         }
       ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{CustomModelData:11120}"
     }
   ]
   
