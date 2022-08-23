@@ -5,3 +5,4 @@ tag @s remove mercenary
 tag @s remove archer
 tag @s remove kensho
 tag @s remove solar
+tag @s remove sneak
