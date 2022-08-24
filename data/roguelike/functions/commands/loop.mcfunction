@@ -7,6 +7,14 @@
 # scoreboard players enable @a lancer
 # scoreboard players enable @a get_red
 # scoreboard players enable @a get_blue
+
+## system settings
+
+# execute as @a[scores={show_cmdfeeback=1..}] run function rogulike:commands/toggle_cmdfeedback
+# execute as @a[scores={show_deathmsg=1..}] run function rogulike:commands/toggle_deathmsg
+
+## commands
+
 execute as @a[scores={get_red=1..}] run function roguelike:commands/set_armor
 execute as @a[scores={get_blue=1..}] run function roguelike:commands/set_armor
 
