@@ -1,0 +1,39 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "마법 늑대기사의 다리갑옷",
+      "color": "aqua",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "마법을 연구하던 반 늑대기사가 만든 무구",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.max_health",
+        "name": "",
+        "amount": 0,
+        "operation": "addition",
+        "id": "27de6e09-d0b1-40c5-a9b2-aaba4ce84fbe",
+        "slot": "legs"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Unbreakable:1,HideFlags:5,color:10496040}"
+  }
+]

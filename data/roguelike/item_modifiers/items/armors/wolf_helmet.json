@@ -1,0 +1,39 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "마법 늑대기사의 투구",
+      "color": "aqua",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "마법을 연구하던 반 늑대기사가 만든 무구",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.max_health",
+        "name": "",
+        "amount": 0,
+        "operation": "addition",
+        "id": "4b67c739-07e1-4895-8ed5-befd23a160ac",
+        "slot": "head"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Unbreakable:1,HideFlags:69,display:{color:6359562}}"
+  }
+]

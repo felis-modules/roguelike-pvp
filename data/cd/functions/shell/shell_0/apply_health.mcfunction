@@ -1,0 +1,10 @@
+execute if score @s cd_hp_max matches 0..9 run function cd:shell/shell_0/shell_0_0/apply_health 
+execute if score @s cd_hp_max matches 10..19 run function cd:shell/shell_0/shell_0_1/apply_health 
+execute if score @s cd_hp_max matches 20..29 run function cd:shell/shell_0/shell_0_2/apply_health 
+execute if score @s cd_hp_max matches 30..39 run function cd:shell/shell_0/shell_0_3/apply_health 
+execute if score @s cd_hp_max matches 40..49 run function cd:shell/shell_0/shell_0_4/apply_health 
+execute if score @s cd_hp_max matches 50..59 run function cd:shell/shell_0/shell_0_5/apply_health 
+execute if score @s cd_hp_max matches 60..69 run function cd:shell/shell_0/shell_0_6/apply_health 
+execute if score @s cd_hp_max matches 70..79 run function cd:shell/shell_0/shell_0_7/apply_health 
+execute if score @s cd_hp_max matches 80..89 run function cd:shell/shell_0/shell_0_8/apply_health 
+execute if score @s cd_hp_max matches 90..99 run function cd:shell/shell_0/shell_0_9/apply_health 

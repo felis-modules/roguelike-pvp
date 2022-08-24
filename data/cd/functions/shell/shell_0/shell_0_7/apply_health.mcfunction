@@ -1,0 +1,10 @@
+execute if score @s cd_hp_max matches 70 run attribute @s minecraft:generic.max_health modifier add 1-2-4-8-16 "damage" -7.0 add
+execute if score @s cd_hp_max matches 71 run attribute @s minecraft:generic.max_health modifier add 1-2-4-8-16 "damage" -7.1 add
+execute if score @s cd_hp_max matches 72 run attribute @s minecraft:generic.max_health modifier add 1-2-4-8-16 "damage" -7.2 add
+execute if score @s cd_hp_max matches 73 run attribute @s minecraft:generic.max_health modifier add 1-2-4-8-16 "damage" -7.3 add
+execute if score @s cd_hp_max matches 74 run attribute @s minecraft:generic.max_health modifier add 1-2-4-8-16 "damage" -7.4 add
+execute if score @s cd_hp_max matches 75 run attribute @s minecraft:generic.max_health modifier add 1-2-4-8-16 "damage" -7.5 add
+execute if score @s cd_hp_max matches 76 run attribute @s minecraft:generic.max_health modifier add 1-2-4-8-16 "damage" -7.6 add
+execute if score @s cd_hp_max matches 77 run attribute @s minecraft:generic.max_health modifier add 1-2-4-8-16 "damage" -7.7 add
+execute if score @s cd_hp_max matches 78 run attribute @s minecraft:generic.max_health modifier add 1-2-4-8-16 "damage" -7.8 add
+execute if score @s cd_hp_max matches 79 run attribute @s minecraft:generic.max_health modifier add 1-2-4-8-16 "damage" -7.9 add

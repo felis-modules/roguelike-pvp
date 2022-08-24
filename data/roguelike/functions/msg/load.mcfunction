@@ -1,0 +1,2 @@
+scoreboard objectives add msg_killcount minecraft.custom:player_kills
+scoreboard objectives add msg_deathcount deathCount

@@ -1,0 +1,79 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "마법 늑대기사의 각반",
+      "color": "aqua",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "마법을 연구하던 반 늑대기사가 만든 무구",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.max_health",
+        "name": "",
+        "amount": 4,
+        "operation": "addition",
+        "id": "eef8b1ec-f5d3-470f-9ced-79f106242f3c",
+        "slot": "feet"
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "name": "",
+        "amount": 0.06,
+        "operation": "multiply_base",
+        "id": "38d28dfd-5314-466f-bdee-488c9739611a",
+        "slot": "feet"
+      },
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "name": "",
+        "amount": 0.09,
+        "operation": "multiply_base",
+        "id": "082defed-1179-4977-ad92-f6e566aaeab5",
+        "slot": "feet"
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "",
+        "amount": 0.05,
+        "operation": "multiply_base",
+        "id": "8f9cda13-79ac-4401-993d-72847d5417ca",
+        "slot": "feet"
+      },
+      {
+        "attribute": "minecraft:generic.armor",
+        "name": "",
+        "amount": 10,
+        "operation": "addition",
+        "id": "b5254780-1988-43aa-8f62-1365ca15341c",
+        "slot": "feet"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "",
+        "amount": 0.2,
+        "operation": "addition",
+        "id": "89476f86-a6a7-488a-92ac-1ef803c59591",
+        "slot": "feet"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Unbreakable:1,HideFlags:5,tp_item:1b}"
+  }
+]
