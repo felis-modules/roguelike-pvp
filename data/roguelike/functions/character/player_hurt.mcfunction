@@ -1,5 +1,5 @@
 # function roguelike:character/slayer/player_hurt
-execute as @s[tag=mercenary] run function roguelike:character/mercenary/bide_hurt
+execute as @s[tag=mercenary] run function roguelike:character/mercenary/bide/bide_hurt
 function roguelike:character/slayer/player_hurt
 function roguelike:character/paladin/entity_hurt
 

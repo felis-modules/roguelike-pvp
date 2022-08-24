@@ -10,7 +10,7 @@ execute at @s[scores={sl_dark_rune=1..}] run particle minecraft:flame ~ ~ ~ 1 1 
 execute at @s[scores={sl_dark_rune=1..}] run playsound minecraft:entity.ender_dragon.ambient master @a[distance=..20]
 effect give @s[scores={sl_dark_rune=1..}] haste 7 8 false
 effect give @s[scores={sl_dark_rune=1..}] health_boost 7 1 false
-scoreboard players set @s[scores={sl_dark_rune=1..}] cd_dmg -8
+scoreboard players set @s[scores={sl_dark_rune=1..}] cd_dmg -80
 effect give @s[scores={sl_dark_rune=1..}] speed 7 1 false
 effect give @s[scores={sl_dark_rune=1..}] weakness 7 0 false
 

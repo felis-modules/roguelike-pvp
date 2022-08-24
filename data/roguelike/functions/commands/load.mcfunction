@@ -11,6 +11,7 @@ scoreboard objectives add show_deathmsg trigger
 scoreboard objectives add show_cmdfeeback trigger
 
 scoreboard objectives add give_mana trigger
+scoreboard objectives add settier trigger
 
 scoreboard objectives add cmd_armor_state dummy
 scoreboard objectives add cmd_state_givemana dummy
@@ -42,3 +43,4 @@ scoreboard players enable @a lancer
 scoreboard players enable @a get_red
 scoreboard players enable @a get_blue
 scoreboard players enable @a give_mana
+scoreboard players enable @a settier

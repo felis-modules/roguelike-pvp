@@ -14,7 +14,7 @@
 # execute as @a[scores={show_deathmsg=1..}] run function roguelike:commands/toggle_deathmsg
 
 ## commands
-
+execute as @a[scores={settier=1..}] run function roguelike:commands/tier_set
 execute as @a[scores={get_red=1..}] run function roguelike:commands/set_armor
 execute as @a[scores={get_blue=1..}] run function roguelike:commands/set_armor
 

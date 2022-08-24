@@ -15,7 +15,6 @@ scoreboard objectives add cd_uuid1 dummy
 scoreboard objectives add cd_uuid2 dummy
 scoreboard objectives add cd_uuid3 dummy
 
-say hi
 ## used for armor calculation
 scoreboard objectives add const dummy
 scoreboard objectives add cd_var dummy

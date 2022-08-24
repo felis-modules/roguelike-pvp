@@ -1,0 +1,1 @@
+scoreboard players set @s mp_elo_dead 1

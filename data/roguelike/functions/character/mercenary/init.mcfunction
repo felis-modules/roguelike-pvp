@@ -13,8 +13,8 @@ item modify entity @s hotbar.0 roguelike:character/mercenary/halburd_off
 item replace entity @s weapon.offhand with minecraft:carrot_on_a_stick
 item modify entity @s weapon.offhand roguelike:character/mercenary/charge_shield
 
-function roguelike:character/mercenary/give_token
-function roguelike:character/mercenary/update_token
+function roguelike:character/mercenary/token/give_token
+function roguelike:character/mercenary/token/update_token
 
 function roguelike:character/reset_tag
 tag @s add mercenary

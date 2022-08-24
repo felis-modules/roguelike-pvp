@@ -7,9 +7,9 @@ tag @s add charger
 
 execute at @s positioned ^ ^0.25 ^0.8 as @e[tag=!charger,distance=..1.4] run scoreboard players add @s RP_HURT_COOL 0
 
-execute at @s positioned ^ ^0.25 ^0.8 if entity @e[tag=!charger,distance=..1.4,scores={RP_HURT_COOL=0}] run execute store result score .rawdmg cd_dmg run attribute @s generic.attack_damage get 5
+execute at @s positioned ^ ^0.25 ^0.8 if entity @e[tag=!charger,distance=..1.4,scores={RP_HURT_COOL=0}] run function roguelike:character/mercenary/charge/cal_dmg
 
-execute at @s positioned ^ ^0.25 ^0.8 as @e[tag=!charger,distance=..1.4,scores={RP_HURT_COOL=0}] run function roguelike:character/mercenary/charge_hurt
+execute at @s positioned ^ ^0.25 ^0.8 as @e[tag=!charger,distance=..1.4,scores={RP_HURT_COOL=0}] run function roguelike:character/mercenary/charge/charge_hurt
 
 execute if score .charge_givetoken mc_mark2 matches 1 run scoreboard players set @s mc_charge_success 1
 
@@ -34,7 +34,7 @@ execute if score @s mc_charge matches 1 run function roguelike:character/mercena
 # when success
 
 # give token
-execute if score @s mc_charge matches 1 if score @s mc_charge_success matches 1 run function roguelike:character/mercenary/give_token_score
+execute if score @s mc_charge matches 1 if score @s mc_charge_success matches 1 run function roguelike:character/mercenary/token/give_token_score
 # reset token cooltime
 # execute if score @s mc_charge matches 1 if score @s mc_charge_success matches 1 run execute store result score @s mc_token_cool run data get storage roguelike:rp rp_mc_token
 # reset success state
