@@ -10,8 +10,8 @@
 
 ## system settings
 
-# execute as @a[scores={show_cmdfeeback=1..}] run function rogulike:commands/toggle_cmdfeedback
-# execute as @a[scores={show_deathmsg=1..}] run function rogulike:commands/toggle_deathmsg
+# execute as @a[scores={show_cmdfeeback=1..}] run function roguelike:commands/toggle_cmdfeedback
+# execute as @a[scores={show_deathmsg=1..}] run function roguelike:commands/toggle_deathmsg
 
 ## commands
 

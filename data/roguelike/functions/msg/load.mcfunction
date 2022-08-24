@@ -1,0 +1,2 @@
+scoreboard objectives add msg_killer dummy
+scoreboard objectives add msg_deathcount deathCount

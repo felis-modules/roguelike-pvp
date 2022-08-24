@@ -1,10 +1,9 @@
 scoreboard players add @s RP_HURT_COOL 0
 
-execute store result score .rawdmg cd_dmg run attribute @a[tag=tattacker,limit=1,sort=nearest] generic.attack_damage get
 scoreboard players operation .rawdmg cd_dmg *= 120 const
 scoreboard players operation .rawdmg cd_dmg /= 100 const
 
-tellraw @a {"score":{"name":".rawdmg","objective":"cd_dmg"}}
+# tellraw @a {"score":{"name":".rawdmg","objective":"cd_dmg"}}
 
 scoreboard players set @s[type=!player,scores={RP_HURT_COOL=0}] cd_dmg2 15
 scoreboard players operation @s[type=player,scores={RP_HURT_COOL=0}] cd_dmg = .rawdmg cd_dmg

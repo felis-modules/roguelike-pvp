@@ -1,6 +1,6 @@
 
 scoreboard players set @s[type=!player] cd_dmg2 6
-scoreboard players set @s[type=player] cd_dmg2 4
+scoreboard players operation @s[type=player] cd_dmg = .rawdmg cd_dmg
 scoreboard players add @s mc_mark1 0
 scoreboard players set @s[scores={mc_mark1=0}] mc_mark2 5
 

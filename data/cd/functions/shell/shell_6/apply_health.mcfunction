@@ -1,0 +1,10 @@
+execute if score @s cd_hp_max matches 600..609 run function cd:shell/shell_6/shell_6_0/apply_health 
+execute if score @s cd_hp_max matches 610..619 run function cd:shell/shell_6/shell_6_1/apply_health 
+execute if score @s cd_hp_max matches 620..629 run function cd:shell/shell_6/shell_6_2/apply_health 
+execute if score @s cd_hp_max matches 630..639 run function cd:shell/shell_6/shell_6_3/apply_health 
+execute if score @s cd_hp_max matches 640..649 run function cd:shell/shell_6/shell_6_4/apply_health 
+execute if score @s cd_hp_max matches 650..659 run function cd:shell/shell_6/shell_6_5/apply_health 
+execute if score @s cd_hp_max matches 660..669 run function cd:shell/shell_6/shell_6_6/apply_health 
+execute if score @s cd_hp_max matches 670..679 run function cd:shell/shell_6/shell_6_7/apply_health 
+execute if score @s cd_hp_max matches 680..689 run function cd:shell/shell_6/shell_6_8/apply_health 
+execute if score @s cd_hp_max matches 690..699 run function cd:shell/shell_6/shell_6_9/apply_health 
