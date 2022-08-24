@@ -7,6 +7,7 @@ scoreboard objectives add lancer trigger
 scoreboard objectives add mercenary trigger
 scoreboard objectives add get_red trigger
 scoreboard objectives add get_blue trigger
+scoreboard objectives add get_wolf trigger
 scoreboard objectives add show_deathmsg trigger
 scoreboard objectives add show_cmdfeeback trigger
 
@@ -29,6 +30,7 @@ scoreboard players set @a mercenary 0
 scoreboard players set @a lancer 0
 scoreboard players set @a get_red 0
 scoreboard players set @a get_blue 0
+scoreboard players set @a get_wolf 0
 
 scoreboard players set @a give_mana 0
 
@@ -42,5 +44,6 @@ scoreboard players enable @a mercenary
 scoreboard players enable @a lancer
 scoreboard players enable @a get_red
 scoreboard players enable @a get_blue
+scoreboard players enable @a get_wolf
 scoreboard players enable @a give_mana
 scoreboard players enable @a settier

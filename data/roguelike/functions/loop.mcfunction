@@ -4,6 +4,7 @@ function roguelike:character/loop
 function roguelike:commands/loop
 function roguelike:multiplayer/loop
 function roguelike:msg/loop
+function roguelike:armor/loop
 
 # Shield block sound
 execute at @a[scores={SHIELD_BLOCKED=1..}] run playsound minecraft:item.shield.block master @a[distance=..30] ~ ~ ~ 1 0.96 0

@@ -1,0 +1,39 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "마법 늑대기사의 흉갑",
+      "color": "aqua",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "마법을 연구하던 반 늑대기사가 만든 무구",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.max_health",
+        "name": "",
+        "amount": 0,
+        "operation": "addition",
+        "id": "f11f4c31-236e-4acc-a708-d4aa21ad534d",
+        "slot": "chest"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Unbreakable:1,HideFlags:69,display:{color:10496040}}"
+  }
+]
