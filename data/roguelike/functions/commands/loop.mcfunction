@@ -25,3 +25,4 @@ execute as @a[scores={mercenary=1..}] run function roguelike:commands/mercenary
 execute as @a[scores={slayer=1..}] run function roguelike:commands/slayer
 execute as @a[scores={paladin=1..}] run function roguelike:commands/paladin
 execute as @a[scores={archer=1..}] run function roguelike:commands/archer
+execute as @a[scores={assassin=1..}] run function roguelike:commands/assassin

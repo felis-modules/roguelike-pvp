@@ -17,7 +17,7 @@ scoreboard objectives add RP_ITEM_COOL2 dummy
 
 
 ## Event Listeners
-
+scoreboard objectives add RP_USED_LPOTION minecraft.used:minecraft.lingering_potion
 
 
 

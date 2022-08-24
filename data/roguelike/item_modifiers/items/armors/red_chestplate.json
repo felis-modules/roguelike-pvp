@@ -25,7 +25,7 @@
       {
         "attribute": "minecraft:generic.max_health",
         "name": "",
-        "amount": 2,
+        "amount": 0,
         "operation": "addition",
         "id": "9fd3f89f-b83f-4825-b5dd-18fccb26f952",
         "slot": "chest"
@@ -33,7 +33,7 @@
       {
         "attribute": "minecraft:generic.attack_speed",
         "name": "",
-        "amount": 0.03,
+        "amount": 0,
         "operation": "multiply_base",
         "id": "6ea3ac80-dc7d-4d10-941b-d9d522f73866",
         "slot": "chest"
@@ -41,7 +41,7 @@
       {
         "attribute": "minecraft:generic.movement_speed",
         "name": "",
-        "amount": 0.01,
+        "amount": 0,
         "operation": "multiply_total",
         "id": "ed95977e-990d-4793-b16b-ee82667426f0",
         "slot": "chest"
@@ -49,7 +49,7 @@
       {
         "attribute": "minecraft:generic.attack_damage",
         "name": "",
-        "amount": 0.01,
+        "amount": 0,
         "operation": "multiply_total",
         "id": "ec0bf7a2-1a84-4c2b-acd4-c65131cf6fa0",
         "slot": "chest"
@@ -57,7 +57,7 @@
       {
         "attribute": "minecraft:generic.armor",
         "name": "",
-        "amount": 7,
+        "amount": 0,
         "operation": "addition",
         "id": "d3d1d310-3249-42c8-9dda-b2ddba79cda0",
         "slot": "chest"
@@ -65,7 +65,7 @@
       {
         "attribute": "minecraft:generic.armor_toughness",
         "name": "",
-        "amount": 0.1,
+        "amount": 0,
         "operation": "addition",
         "id": "956db6e9-f990-4cdc-ad35-2ce3fb05997a",
         "slot": "chest"
