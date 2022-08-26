@@ -1,0 +1,1 @@
+execute if entity @s[tag=assassin,scores={RP_smoke=1..2}] run 
