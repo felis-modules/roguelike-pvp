@@ -2,6 +2,8 @@ effect give @a[tag=assassin] strength 3 1 true
 effect give @a[tag=assassin] mining_fatigue 3 2 true
 effect give @a[tag=assassin] speed 3 0 true
 effect give @a[tag=assassin] invisibility 3 0 true
+
+execute as @a[tag=assassin,scores={RP_COOL2=0}] run function roguelike:character/assassin/give_smoke
 #effect give @a[tag=nuker,nbt=!{Inventory:[{id:"minecraft:diamond_helmet",Slot:103b,tag:{hood:1b}}]}] slowness 2 6 true
 #effect give @a[tag=nuker,nbt=!{Inventory:[{id:"minecraft:diamond_helmet",Slot:103b,tag:{hood:1b}}]}] weakness 2 10 true
 
