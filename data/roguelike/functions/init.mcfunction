@@ -14,6 +14,8 @@ scoreboard objectives add RP_COOL3 dummy
 scoreboard objectives add RP_HURT_COOL dummy
 scoreboard objectives add RP_ITEM_COOL1 dummy
 scoreboard objectives add RP_ITEM_COOL2 dummy
+## temp는 다용도 버퍼 직업별로 아무데나 쓰3
+scoreboard objectives add temp dummy
 
 
 ## Event Listeners

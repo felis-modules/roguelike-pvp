@@ -12,3 +12,4 @@ attribute @s generic.attack_speed base set 4
 scoreboard players set @s RP_COOL1 0
 scoreboard players set @s RP_COOL2 0
 scoreboard players set @s RP_COOL3 0
+scoreboard players set @s temp 0
