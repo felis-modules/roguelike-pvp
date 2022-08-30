@@ -21,9 +21,13 @@ execute if entity @e[type=minecraft:area_effect_cloud,tag=aftersmoke] run functi
 execute as @a[tag=assassin,tag=sneak] at @s unless entity @e[type=area_effect_cloud,tag=aftersmoke,distance=..3] run function roguelike:character/assassin/unsneak
 #####################################################################
 
+## 이건 왼손에든거 nbt임@a[nbt={Inventory:[{id:"minecraft:stone_hoe",Slot:-106b}]
+
 
 
 
 tag @a[tag=assassin,scores={RP_USED_PEARL = 1,as_pearl=..1}] remove RP_spause1
 tag @a[tag=assassin,scores={RP_USED_LPOTION = 1}] remove RP_spause2
+
+scoreboard players set @a[tag=assassin] temp 0
 
