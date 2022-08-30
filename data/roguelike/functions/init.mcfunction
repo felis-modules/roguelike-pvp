@@ -20,6 +20,8 @@ scoreboard objectives add temp dummy
 
 ## Event Listeners
 scoreboard objectives add RP_USED_LPOTION minecraft.used:minecraft.lingering_potion
+scoreboard objectives add RP_USED_PEARL minecraft.used:minecraft.ender_pearl
+
 
 
 

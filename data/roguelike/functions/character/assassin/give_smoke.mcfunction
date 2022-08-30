@@ -11,5 +11,5 @@ execute if score @s[tag=assassin] temp matches 5 run item modify entity @s hotba
 execute if score @s[tag=assassin] temp matches 6 run item modify entity @s hotbar.6 roguelike:character/assassin/yangsim
 execute if score @s[tag=assassin] temp matches 7 run item modify entity @s hotbar.7 roguelike:character/assassin/yangsim
 execute if score @s[tag=assassin] temp matches 8 run item modify entity @s hotbar.8 roguelike:character/assassin/yangsim
-execute if score @s[tag=assassin] as_smoke matches 3 run tag @s add RP_spause
+execute if score @s[tag=assassin] as_smoke matches 3 run tag @s add RP_spause2
 execute store result score @s[tag=assassin] RP_COOL2 run data get storage roguelike:rp rp_as_cool2
