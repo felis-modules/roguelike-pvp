@@ -1,64 +1,63 @@
 [
-    {
-      "function": "minecraft:set_name",
-      "entity": "this",
-      "name": {
-        "text": "진월도 (眞 刖 刀)",
-        "color": "blue",
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "text": "진월도 (眞 刖 刀)",
+      "color": "blue",
+      "bold": true
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "<진월도> 참되게 베는 검",
+        "color": "gray",
+        "bold": true,
+        "extra": [
+          "\n"
+        ]
+      },
+      {
+        "text": "장인은 도구 탓을 하지 않지",
+        "color": "dark_gray",
         "bold": true
       }
-    },
-    {
-      "function": "minecraft:set_lore",
-      "entity": "this",
-      "lore": [
-        {
-          "text": "<진월도> 참되게 베는 검",
-          "color": "gray",
-          "bold": true,
-          "extra": [
-            "\n"
-          ]
-        },
-        {
-          "text": "장인은 도구 탓을 하지 않지",
-          "color": "dark_gray",
-          "bold": true
-        }
-      ]
-    },
-    {
-      "function": "minecraft:set_attributes",
-      "modifiers": [
-        {
-          "attribute": "minecraft:generic.attack_speed",
-          "name": "",
-          "amount": -3,
-          "operation": "addition",
-          "id": "abdef5da-5afd-4893-acf7-9a2c0ae9ab1b",
-          "slot": "mainhand"
-        },
-        {
-          "attribute": "minecraft:generic.movement_speed",
-          "name": "",
-          "amount": -0.2,
-          "operation": "multiply_total",
-          "id": "e3ae90d1-b536-461b-a829-8b99059ecd65",
-          "slot": "mainhand"
-        },
-        {
-          "attribute": "minecraft:generic.attack_damage",
-          "name": "",
-          "amount": 13,
-          "operation": "addition",
-          "id": "8632ad97-72f4-4a8f-8f1c-dc6f32583492",
-          "slot": "mainhand"
-        }
-      ]
-    },
-    {
-        "function": "minecraft:set_nbt",
-        "tag": "{CustomModelData:11120}"
-    }
-  ]
-  
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "name": "",
+        "amount": -3,
+        "operation": "addition",
+        "id": "abdef5da-5afd-4893-acf7-9a2c0ae9ab1b",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "name": "",
+        "amount": -0.2,
+        "operation": "multiply_total",
+        "id": "e3ae90d1-b536-461b-a829-8b99059ecd65",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "",
+        "amount": 13,
+        "operation": "addition",
+        "id": "8632ad97-72f4-4a8f-8f1c-dc6f32583492",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{main_wp:1b,CustomModelData:11120}"
+  }
+]

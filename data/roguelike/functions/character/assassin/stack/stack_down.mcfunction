@@ -1,0 +1,1 @@
+scoreboard players set @s[scores={as_stack=2..}] as_stack 1
