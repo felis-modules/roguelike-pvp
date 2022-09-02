@@ -19,8 +19,8 @@ scoreboard players set .charge_givetoken mc_mark2 0
 tag @s remove charger
 
 # effect
-execute at @s run particle soul_fire_flame ~ ~0.7 ~ 0.4 0.4 0.4 0 30 force
-execute at @s run particle dust 0.388 0.549 0.961 1 ~ ~0.7 ~ 0.4 0.4 0.4 0 60 force
+execute at @s run particle soul_fire_flame ~ ~0.7 ~ 0.4 0.4 0.4 0 20 force
+execute at @s run particle dust 0.388 0.549 0.961 1 ~ ~0.7 ~ 0.4 0.4 0.4 0 40 force
 
 # final effects
 execute if score @s mc_charge matches 1 at @s run particle soul_fire_flame ~ ~0.7 ~ 0.4 0.4 0.4 0.7 30 force
