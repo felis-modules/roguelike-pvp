@@ -1,4 +1,4 @@
-####### 엔더진주
+tag @a[tag=assassin,scores={msg_deathcount=1}] remove baldo
 execute as @a[tag=assassin,scores={RP_USED_PEARL=1},nbt=!{SelectedItem:{id:"minecraft:ender_pearl"}}] run item replace entity @s weapon.mainhand with minecraft:slime_ball
 execute as @a[tag=assassin,scores={RP_USED_PEARL=1}] run effect give @s speed 3 1
 execute as @a[tag=assassin,scores={RP_USED_PEARL=1}] run function roguelike:character/assassin/stack/stack_up

@@ -5,6 +5,7 @@
 # 매 틱, 매 스레드 별로 때린 사람의 스택이 몇이지 반영해야한다.
 # 처리할 때 as_stack 은 사용하지 않는 사람이 있으면 0으로 초기화 시킬 필요 없음 (암살자일경우만 실행됨)
 execute store result score .state as_stack run scoreboard players get @s as_stack
+tag @s remove baldo
 tag @s remove ready
 scoreboard players set @s as_stack 0
 # 또한 때린 사람이 처리가 필요한 경우 조건으로 분기
