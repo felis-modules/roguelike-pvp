@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_axe",
+      "nbt": "{CustomModelData:1121}"
+    },
+    "title": "슬레이어",
+    "description": {
+      "text": "방어력 : 4\n",
+      "extra": [
+        {
+          "text": "방어강도 : 2\n",
+          "extra": [
+            {
+              "text": "이동속도 : 보통"
+            }
+          ]
+        }
+      ]
+    },
+    "background": "minecraft:textures/block/dark_oak_planks",
+    "frame": "task",
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

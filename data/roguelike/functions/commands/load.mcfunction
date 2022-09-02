@@ -16,6 +16,7 @@ scoreboard objectives add settier trigger
 
 scoreboard objectives add cmd_armor_state dummy
 scoreboard objectives add cmd_state_givemana dummy
+scoreboard objectives add cmd_state_givebook dummy
 scoreboard objectives add cmd_send_feedback dummy
 scoreboard players add .state cmd_send_feedback 0
 scoreboard players add @a cmd_armor_state 0
@@ -33,6 +34,7 @@ scoreboard players set @a get_blue 0
 scoreboard players set @a get_wolf 0
 
 scoreboard players set @a give_mana 0
+
 
 scoreboard players enable @a show_cmdfeeback
 scoreboard players enable @a show_deathmsg
