@@ -25,7 +25,7 @@
       {
         "attribute": "minecraft:generic.armor",
         "name": "",
-        "amount": 2,
+        "amount": 10,
         "operation": "addition",
         "id": "3b69e089-c956-4c30-977c-785ad72cead1",
         "slot": "feet"
@@ -33,7 +33,7 @@
       {
         "attribute": "minecraft:generic.attack_damage",
         "name": "",
-        "amount": 0.05,
+        "amount": 0.2,
         "operation": "multiply_base",
         "id": "afb83266-092f-4b9a-b1bc-8bf0b79985e7",
         "slot": "feet"
@@ -41,7 +41,7 @@
       {
         "attribute": "minecraft:generic.movement_speed",
         "name": "",
-        "amount": 0.03,
+        "amount": 0.18,
         "operation": "multiply_base",
         "id": "fbeb3afd-16d9-49cf-8646-9586257dac89",
         "slot": "feet"

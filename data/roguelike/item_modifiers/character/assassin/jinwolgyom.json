@@ -1,0 +1,64 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {
+        "text": "암살자의 단도",
+        "color": "aqua",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "대검을 손쉽게 숨기기 위한 호신용 단도",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:unbreaking": 1
+      }
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "name": "",
+          "amount": -2.23,
+          "operation": "addition",
+          "id": "abdef5da-5afd-4893-acf7-9a2c0ae9ab1b",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "",
+          "amount": 0.05,
+          "operation": "multiply_total",
+          "id": "e3ae90d1-b536-461b-a829-8b99059ecd65",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "name": "",
+          "amount": 1.3,
+          "operation": "addition",
+          "id": "8632ad97-72f4-4a8f-8f1c-dc6f32583492",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:12311}"
+    }
+  ]
+  

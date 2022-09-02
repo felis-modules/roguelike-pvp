@@ -1,5 +1,6 @@
-function roguelike:character/archer/init
+function roguelike:character/assassin/init
 function roguelike:commands/apply_armor
 function roguelike:commands/apply_potion
-scoreboard players set @s cp_archer 0
-scoreboard players enable @s cp_archer
+execute if score .state cmd_state_givebook matches 1 run function roguelike:items/master_cmd_book
+scoreboard players set @s assassin 0
+scoreboard players enable @s assassin

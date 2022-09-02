@@ -1,0 +1,58 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {
+        "text": "암살자의 대검",
+        "color": "light_purple",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "암살용 대검이라 약하지만 쓸만하다.",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "name": "",
+          "amount": -2.4,
+          "operation": "addition",
+          "id": "abdef5da-5afd-4893-acf7-9a2c0ae9ab1b",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "",
+          "amount": -0.2,
+          "operation": "multiply_total",
+          "id": "e3ae90d1-b536-461b-a829-8b99059ecd65",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "name": "",
+          "amount": 6,
+          "operation": "addition",
+          "id": "8632ad97-72f4-4a8f-8f1c-dc6f32583492",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{CustomModelData:11120}"
+    }
+  ]
+  
