@@ -1,7 +1,32 @@
 [
-    {
-      "function": "minecraft:limit_count",
-      "limit": 10
-    }
-  ]
-  
+  {
+    "function": "minecraft:limit_count",
+    "limit": 2,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "as_smoke"
+        },
+        "range": 2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:limit_count",
+    "limit": 3,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "as_smoke"
+        },
+        "range": 3
+      }
+    ]
+  }
+]

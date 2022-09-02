@@ -4,3 +4,4 @@ function roguelike:character/slayer/player_hurt
 function roguelike:character/paladin/entity_hurt
 
 function roguelike:character/mercenary/player_hurt
+function roguelike:character/assassin/player_hurt
