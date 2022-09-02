@@ -10,3 +10,4 @@ tag @s remove ready
 tag @s remove RP_spause1
 tag @s remove RP_spause2
 tag @s remove RP_spause3
+tag @s remove baldo
