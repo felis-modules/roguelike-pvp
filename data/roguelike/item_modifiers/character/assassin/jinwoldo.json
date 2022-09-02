@@ -52,6 +52,6 @@
     },
     {
         "function": "minecraft:set_nbt",
-        "tag": "{CustomModelData:11120}"
+        "tag": "{main_wp:1b,CustomModelData:11120}"
     }
   ]
