@@ -31,9 +31,9 @@ scoreboard players operation @s cd_hp_e -= @s cd_abs
 
 ## assertions
 
-# tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
-# tellraw @a {"score":{"name":"@s","objective":"cd_hp_e"}}
-# tellraw @a {"score":{"name":"@s","objective":"cd_hp_max"}}
+tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
+tellraw @a {"score":{"name":"@s","objective":"cd_hp_e"}}
+tellraw @a {"score":{"name":"@s","objective":"cd_hp_max"}}
 
 # execute if score @s cd_hp_e matches ..0 run kill @s
 effect give @s instant_health 1 7 true

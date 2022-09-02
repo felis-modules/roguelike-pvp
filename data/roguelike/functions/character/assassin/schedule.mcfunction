@@ -4,6 +4,7 @@
 execute as @a[tag=assassin,scores={RP_COOL1=0},tag=!RP_spause1] run function roguelike:character/assassin/give_pearl
 execute as @a[tag=assassin,scores={RP_COOL2=0},tag=!RP_spause2] run function roguelike:character/assassin/give_smoke
 
+
 #effect give @a[tag=nuker,nbt=!{Inventory:[{id:"minecraft:diamond_helmet",Slot:103b,tag:{hood:1b}}]}] slowness 2 6 true
 #effect give @a[tag=nuker,nbt=!{Inventory:[{id:"minecraft:diamond_helmet",Slot:103b,tag:{hood:1b}}]}] weakness 2 10 true
 
