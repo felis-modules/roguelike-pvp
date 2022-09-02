@@ -1,5 +1,7 @@
 ####### 엔더진주
 execute as @a[tag=assassin,scores={RP_USED_PEARL=1},nbt=!{SelectedItem:{id:"minecraft:ender_pearl"}}] run item replace entity @s weapon.mainhand with minecraft:slime_ball
+execute as @a[tag=assassin,scores={RP_USED_PEARL=1}] run effect give @s speed 3 1
+execute as @a[tag=assassin,scores={RP_USED_PEARL=1}] run function roguelike:character/assassin/stack/stack_up
 execute as @a[tag=assassin,scores={RP_USED_PEARL=1}] run scoreboard players remove @s as_pearl 1
 
 
@@ -25,7 +27,10 @@ execute as @a[tag=assassin,tag=sneak] at @s unless entity @e[type=area_effect_cl
 ## 이건 왼손에든거 nbt임@a[nbt={Inventory:[{id:"minecraft:stone_hoe",Slot:-106b}]
 
 execute as @a[tag=assassin,nbt={Inventory:[{tag:{main_wp:1b},Slot:-106b}]}] run function roguelike:character/assassin/stack/guage_up
-execute as @a[tag=assassin,tag=ready,nbt={SelectedItem:[{tag:{main_wp:1b}}]},nbt={Inventory:[{tag:{sub_wp:1b},Slot:-106b}]}] run function roguelike:character/assassin/stack/swap
+execute as @a[tag=assassin,tag=ready,nbt={SelectedItem:{tag:{main_wp:1b}}},nbt={Inventory:[{tag:{sub_wp:1b},Slot:-106b}]}] run function roguelike:character/assassin/stack/swap
+scoreboard players remove @a[tag=assassin,scores={as_stack_down=2..}] as_stack_down 1
+execute as @a[tag=assassin,scores={as_stack_down=1, as_stack=2..}] run function roguelike:character/assassin/stack/stack_down
+
 
 ############################################################
 

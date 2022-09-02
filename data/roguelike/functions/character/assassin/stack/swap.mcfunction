@@ -1,3 +1,3 @@
-effect give @s[tag=ready] speed 2 1
+effect give @s[tag=ready] speed 3 1
 tag @s remove ready
-execute as @s run schedule function roguelike:character/assassin/stack/stack_down 2s
+execute store result score @s as_stack_down run data get storage roguelike:rp rp_stack_down

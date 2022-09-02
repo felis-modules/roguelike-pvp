@@ -59,5 +59,10 @@
   {
     "function": "minecraft:set_nbt",
     "tag": "{main_wp:1b,CustomModelData:11120}"
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.9,
+    "add": false
   }
 ]
