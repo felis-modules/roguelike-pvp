@@ -17,6 +17,5 @@ item modify entity @s hotbar.0 roguelike:character/assassin/jinwoldo
 item replace entity @s weapon.offhand with warped_fungus_on_a_stick
 item modify entity @s weapon.offhand roguelike:character/assassin/jinwolgyom
 item replace entity @s hotbar.1 with ender_pearl 1
-item replace entity @s hotbar.2 with lingering_potion{smoke:1b,CustomPotionColor:1179648}
+item replace entity @s hotbar.2 with lingering_potion{display:{Name:'{"text":"암살자의 연막탄","color":"light_purple","bold":false,"italic":false}',Lore:['{"text":"암살자의 주특기인 연막술을 펼친다.","color":"gray","bold":false,"italic":false}']},CustomPotionEffects:[{Id:15,Amplifier:0b,Duration:130}],CustomPotionColor:3881787,smoke:1b}
 function roguelike:character/assassin/give_smoke
-
