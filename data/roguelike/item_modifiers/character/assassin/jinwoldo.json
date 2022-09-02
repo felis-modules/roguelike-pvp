@@ -3,9 +3,10 @@
       "function": "minecraft:set_name",
       "entity": "this",
       "name": {
-        "text": "진월도 (眞 刖 刀)",
-        "color": "blue",
-        "bold": true
+        "text": "암살자의 대검",
+        "color": "light_purple",
+        "bold": false,
+        "italic": false
       }
     },
     {
@@ -13,17 +14,10 @@
       "entity": "this",
       "lore": [
         {
-          "text": "<진월도> 참되게 베는 검",
+          "text": "암살용 대검이라 약하지만 쓸만하다.",
           "color": "gray",
-          "bold": true,
-          "extra": [
-            "\n"
-          ]
-        },
-        {
-          "text": "장인은 도구 탓을 하지 않지",
-          "color": "dark_gray",
-          "bold": true
+          "bold": false,
+          "italic": false
         }
       ]
     },
@@ -33,7 +27,7 @@
         {
           "attribute": "minecraft:generic.attack_speed",
           "name": "",
-          "amount": -3,
+          "amount": -2.4,
           "operation": "addition",
           "id": "abdef5da-5afd-4893-acf7-9a2c0ae9ab1b",
           "slot": "mainhand"
@@ -49,7 +43,7 @@
         {
           "attribute": "minecraft:generic.attack_damage",
           "name": "",
-          "amount": 13,
+          "amount": 6,
           "operation": "addition",
           "id": "8632ad97-72f4-4a8f-8f1c-dc6f32583492",
           "slot": "mainhand"

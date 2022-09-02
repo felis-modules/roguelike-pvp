@@ -3,9 +3,10 @@
       "function": "minecraft:set_name",
       "entity": "this",
       "name": {
-        "text": "진월겸 (振 越 鎌)",
-        "color": "blue",
-        "bold": true
+        "text": "암살자의 단도",
+        "color": "aqua",
+        "bold": false,
+        "italic": false
       }
     },
     {
@@ -13,12 +14,10 @@
       "entity": "this",
       "lore": [
         {
-          "text": "휘몰아 떨치며 넘나드는 낫",
+          "text": "대검을 손쉽게 숨기기 위한 호신용 단도",
           "color": "gray",
-          "bold": true,
-          "extra": [
-            "\n"
-          ]
+          "bold": false,
+          "italic": false
         }
       ]
     },
@@ -50,7 +49,7 @@
         {
           "attribute": "minecraft:generic.attack_damage",
           "name": "",
-          "amount": 3.3,
+          "amount": 1.3,
           "operation": "addition",
           "id": "8632ad97-72f4-4a8f-8f1c-dc6f32583492",
           "slot": "mainhand"
