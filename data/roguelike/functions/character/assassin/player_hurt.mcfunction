@@ -1,0 +1,1 @@
+execute if score .state as_stack matches 1..4 run function roguelike:character/assassin/stack/cal_dmg

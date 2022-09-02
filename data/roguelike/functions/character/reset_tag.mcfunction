@@ -6,3 +6,7 @@ tag @s remove archer
 tag @s remove kensho
 tag @s remove solar
 tag @s remove sneak
+tag @s remove ready
+tag @s remove RP_spause1
+tag @s remove RP_spause2
+tag @s remove RP_spause3
