@@ -1,0 +1,1 @@
+function roguelike:entity_hit_matching/player_death

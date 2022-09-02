@@ -31,7 +31,6 @@ scoreboard objectives add RP_USED_PEARL minecraft.used:minecraft.ender_pearl
 scoreboard objectives add SHIELD_BLOCKED minecraft.used:shield
 
 function roguelike:commands/load
-function roguelike:msg/load
 function roguelike:character/load
 function roguelike:multiplayer/load
 function roguelike:armor/load
