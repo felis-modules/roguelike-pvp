@@ -4,8 +4,9 @@ execute as @a[tag=assassin,scores={RP_USED_PEARL=1}] run effect give @s speed 3 
 execute as @a[tag=assassin,scores={RP_USED_PEARL=1}] run function roguelike:character/assassin/stack/stack_up
 execute as @a[tag=assassin,scores={RP_USED_PEARL=1}] run scoreboard players remove @s as_pearl 1
 
-
-
+execute as @s[scores={as_stack=1}] run effect give @s strength 3 1 true
+execute as @s[scores={as_stack=2}] run effect give @s strength 3 2 true
+execute as @s[scores={as_stack=0}] run effect give @s strength 3 0 true
 
 ################################################################
 function roguelike:character/assassin/smoke/main

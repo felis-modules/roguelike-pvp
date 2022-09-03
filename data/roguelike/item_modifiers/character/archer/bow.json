@@ -55,7 +55,7 @@
   {
     "function": "minecraft:set_enchantments",
     "enchantments": {
-      "minecraft:power": 3,
+      "minecraft:power": 1,
       "minecraft:knockback": 1,
       "minecraft:infinity": 1
     },

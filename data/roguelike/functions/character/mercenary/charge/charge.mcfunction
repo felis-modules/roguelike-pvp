@@ -1,7 +1,7 @@
 # charge 1 tick
 
 # charge
-execute at @s rotated ~ 0 if block ^ ^0.8 ^0.8 air run tp @s ^ ^0.25 ^0.8
+execute at @s rotated ~ 0 if block ^ ^1.2 ^0.8 air run tp @s ^ ^0.25 ^0.8
 tag @s add charger
 # damages & check success
 
