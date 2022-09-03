@@ -10,4 +10,5 @@ execute store result score @s cd_dmg run data get storage roguelike:rp rp_as_sta
 ## 스택에 따른 데미지 증가연산
 execute at @s if entity @e[type=minecraft:area_effect_cloud,tag=aftersmoke,distance=..3] run scoreboard players add .state as_stack 1
 scoreboard players operation @s cd_dmg *= .state as_stack
-tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
+# tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
+execute if entity @s[scores={cd_dmg=..0}] run scoreboard players set @a cd_attacker 0
