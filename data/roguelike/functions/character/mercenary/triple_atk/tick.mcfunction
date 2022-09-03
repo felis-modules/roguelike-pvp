@@ -8,7 +8,7 @@ execute if score @s mc_tattack matches 3 run function roguelike:character/mercen
 execute if score @s mc_tattack matches 1 run function roguelike:character/mercenary/weapon/turn_off
 
 execute if score @s mc_tattack matches 1 if score @s mc_tatk_success matches 1 run function roguelike:character/mercenary/token/give_token_score
-execute if score @s mc_tattack matches 1 if score @s mc_tatk_success matches 1 run effect give @s regeneration 3 2
+# execute if score @s mc_tattack matches 1 if score @s mc_tatk_success matches 1 run effect give @s regeneration 3 2
 
 execute if score @s mc_tattack matches 1 run scoreboard players set @s mc_tatk_success 0
 

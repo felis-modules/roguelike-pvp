@@ -8,4 +8,4 @@ scoreboard objectives add as_stack_down dummy
 
 
 
-data merge storage roguelike:rp {rp_as_cool1:31,rp_as_cool2:20,rp_as_stack_basedmg:60,rp_stack_guage:50,rp_stack_down:60}
+data merge storage roguelike:rp {rp_as_cool1:31,rp_as_cool2:20,rp_as_stack_basedmg:50,rp_stack_guage:50,rp_stack_down:120}

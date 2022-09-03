@@ -1,0 +1,1 @@
+give @s iron_ingot{display:{Name:'{"text":"암살자의 집중","color":"light_purple","bold":false,"italic":false}',Lore:['{"text":"집중력이 중첩될 수록 타격 데미지가 늘어난다.","color":"gray","bold":false,"italic":false}']},as_token:1b,CustomModelData:100002,invparse:200002}

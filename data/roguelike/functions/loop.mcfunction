@@ -20,3 +20,4 @@ scoreboard players set @a RP_USED_FSTICK 0
 scoreboard players set @a SHIELD_BLOCKED 0
 scoreboard players set @a RP_USED_LPOTION 0
 scoreboard players set @a RP_USED_PEARL 0
+scoreboard players set @a RP_ON_DEATH 0

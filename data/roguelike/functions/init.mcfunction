@@ -8,6 +8,8 @@ gamerule showDeathMessages false
 scoreboard objectives add RP_USED_FSTICK minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add RP_USED_CSTICK minecraft.used:carrot_on_a_stick
 scoreboard objectives add RP_USED_CBOW minecraft.used:crossbow
+scoreboard objectives add RP_ON_DEATH deathCount
+
 scoreboard objectives add RP_COOL1 dummy
 scoreboard objectives add RP_COOL2 dummy
 scoreboard objectives add RP_COOL3 dummy

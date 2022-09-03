@@ -1,1 +1,3 @@
-say 으악 죽었노!
+
+function roguelike:multiplayer/dead
+function roguelike:multiplayer/kill_log

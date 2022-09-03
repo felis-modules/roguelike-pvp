@@ -5,6 +5,8 @@
 ## Platinum
 
 scoreboard objectives add mp_elo dummy
+scoreboard objectives add mp_killer dummy
+scoreboard objectives add mp_dead dummy
 scoreboard objectives add mp_elo_killer dummy
 scoreboard objectives add mp_elo_dead dummy
 scoreboard players add @a mp_elo 0

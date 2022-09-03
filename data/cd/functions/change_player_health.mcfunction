@@ -31,9 +31,12 @@ scoreboard players operation @s cd_hp_e -= @s cd_abs
 
 ## assertions
 
-tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
-tellraw @a {"score":{"name":"@s","objective":"cd_hp_e"}}
-tellraw @a {"score":{"name":"@s","objective":"cd_hp_max"}}
+# say 들어온 데미지 (단위 0.1 반 하트 (하트 한개 = 20))
+# tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
+# say 계산후의 현재 체력
+# tellraw @a {"score":{"name":"@s","objective":"cd_hp_e"}}
+# say 계산후 최대체력으로부터 현재 체력까지의 차이값
+# tellraw @a {"score":{"name":"@s","objective":"cd_hp_max"}}
 
 # execute if score @s cd_hp_e matches ..0 run kill @s
 effect give @s instant_health 1 7 true
@@ -51,7 +54,7 @@ scoreboard players set @a cd_attacker 0
 #execute if score @s cd_abs > @s cd_dmg if score @s cd_dmg matches 1.. run tag @s add cd.takeAbsorptionDamage
 ## cd_hp_max in this time indicates the subtracted value of between health & max_health
 execute if score @s cd_hp_max matches 0.. run tag @s add cd.takeDamage
-execute if score @s cd_hp_max matches ..-1 at @s run playsound entity.generic.hurt master @a ~ ~ ~ 1
+execute if score @s cd_hp_max matches ..-1 at @s run playsound entity.generic.hurt master @a ~ ~ ~ 1 1 0
 #execute if score @s cd_hp_max matches 0.. run effect clear @s absorption
 
 function cd:shell/apply_health

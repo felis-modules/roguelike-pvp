@@ -31,4 +31,7 @@ execute if entity @s[advancements={entity_hit_matching:player_killed={bit28=true
 execute if entity @s[advancements={entity_hit_matching:player_killed={bit29=true}}] run scoreboard players add $hit entityid 536870912
 execute if entity @s[advancements={entity_hit_matching:player_killed={bit30=true}}] run scoreboard players add $hit entityid 1073741824
 execute if entity @s[advancements={entity_hit_matching:player_killed={bit31=true}}] run scoreboard players operation $hit entityid *= -1 const
-execute as @e if score @s entityid = $hit entityid run function entity_hit_matching:on_death
+# execute as @e if score @s entityid = $hit entityid run say hifunction entity_hit_matching:on_death
+# execute if entity @a[scores={RP_ON_DEATH=1..}] run say hi
+execute as @a[scores={RP_ON_DEATH=1..}] run function entity_hit_matching:on_death
+scoreboard players set @s entity.playerDeath 0
