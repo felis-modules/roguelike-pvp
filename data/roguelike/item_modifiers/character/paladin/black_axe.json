@@ -25,7 +25,7 @@
       {
         "attribute": "minecraft:generic.attack_speed",
         "name": "",
-        "amount": -2.6,
+        "amount": 100,
         "operation": "addition",
         "id": "5ea3120a-a706-43c4-bcf6-b4ecb9490f99",
         "slot": "mainhand"
@@ -33,7 +33,7 @@
       {
         "attribute": "minecraft:generic.attack_damage",
         "name": "",
-        "amount": 7,
+        "amount": 0.1,
         "operation": "addition",
         "id": "4fb9b6d7-a385-49e5-8518-38fa35e467e2",
         "slot": "mainhand"
@@ -42,6 +42,6 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{tanker_ulti:1b,HideFlags:4,Unbreakable:1b,CustomModelData:19307}"
+    "tag": "{atktype:2b,tanker_ulti:1b,HideFlags:4,Unbreakable:1b,CustomModelData:19307}"
   }
 ]

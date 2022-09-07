@@ -32,8 +32,4 @@ scoreboard objectives add mc_tatk_success dummy
 # 1 일 경우 원형 공격 실행
 scoreboard objectives add mc_rattack dummy
 
-data merge storage roguelike:rp {rp_mc_cool1:17}
-data merge storage roguelike:rp {rp_mc_cool2:5}
-data merge storage roguelike:rp {rp_mc_cool3:16}
-data merge storage roguelike:rp {rp_mc_cool4:16}
-data merge storage roguelike:rp {rp_mc_token:12}
+data merge storage roguelike:rp {rp_mc_cool1:6,rp_mc_cool2:13,rp_mc_atkspeed:20,rp_mc_atkdmg:6}

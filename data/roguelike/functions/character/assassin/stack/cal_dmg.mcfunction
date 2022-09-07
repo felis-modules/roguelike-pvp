@@ -13,3 +13,5 @@ execute at @s if entity @e[type=minecraft:area_effect_cloud,tag=aftersmoke,dista
 
 # tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
 execute if entity @s[scores={cd_dmg=..0}] run scoreboard players set @a cd_attacker 0
+
+say hi

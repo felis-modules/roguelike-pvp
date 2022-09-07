@@ -2,13 +2,23 @@ scoreboard objectives add HP health
 scoreboard objectives setdisplay belowName HP
 scoreboard objectives modify HP displayname {"translate":"♥","color":"red"}
 # gamerule sendCommandFeedback false
-gamerule showDeathMessages false
+# gamerule showDeathMessages false
 
 ## 스킬 관련
 scoreboard objectives add RP_USED_FSTICK minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add RP_USED_CSTICK minecraft.used:carrot_on_a_stick
 scoreboard objectives add RP_USED_CBOW minecraft.used:crossbow
 scoreboard objectives add RP_ON_DEATH deathCount
+
+## 알파 이후 변경 1. 커스텀 공속 추가
+scoreboard objectives add RP_WEAPON_COOL dummy
+scoreboard objectives add RP_DMG_DEALT minecraft.custom:damage_dealt
+
+## 이거는 평타 데미지를 파싱할 변수.
+## 플레이어별로 데미지 상태 (사용한 무기) 를 character playerhitmatching 함수에서
+## type 별로 인식하여 피격자,공격자의 정보를 넘겨준다.
+## 자세한건 roguelike:character/player_hit, hurt 참고
+scoreboard objectives add RP_DMG_PARSE dummy
 
 scoreboard objectives add RP_COOL1 dummy
 scoreboard objectives add RP_COOL2 dummy

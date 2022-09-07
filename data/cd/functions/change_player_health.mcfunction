@@ -1,5 +1,9 @@
 ## given damage :
 # tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
+## assertions
+
+say 들어온 데미지 (단위 0.1 반 하트 (하트 한개 = 20))
+tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
 
 ## calculate resistance buffs on hurtter : editted by roguelike-pvp
 execute store result score .resistance cd_dmg run data get entity @s ActiveEffects[{Id:11}].Amplifier
@@ -31,14 +35,14 @@ scoreboard players operation @s cd_hp_e -= @s cd_abs
 
 ## assertions
 
-# say 들어온 데미지 (단위 0.1 반 하트 (하트 한개 = 20))
-# tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
-# say 계산후의 현재 체력
-# tellraw @a {"score":{"name":"@s","objective":"cd_hp_e"}}
-# say 계산후 최대체력으로부터 현재 체력까지의 차이값
-# tellraw @a {"score":{"name":"@s","objective":"cd_hp_max"}}
+say 들어온 데미지 (단위 0.1 반 하트 (하트 한개 = 20))
+tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
+say 계산후의 현재 체력
+tellraw @a {"score":{"name":"@s","objective":"cd_hp_e"}}
+say 계산후 최대체력으로부터 현재 체력까지의 차이값
+tellraw @a {"score":{"name":"@s","objective":"cd_hp_max"}}
 
-# execute if score @s cd_hp_e matches ..0 run kill @s
+execute if score @s cd_hp_e matches ..0 run kill @s
 effect give @s instant_health 1 7 true
 
 ## check dead 
