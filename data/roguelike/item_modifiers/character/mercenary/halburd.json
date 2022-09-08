@@ -1,0 +1,59 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "개량형 오션스톤 할버드",
+      "color": "light_purple",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "불명예스러운 탈주 군사의 특이한 창",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "데미지 +6",
+        "color": "green",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{atktype:3b,invparse:200000,halburd:2b,CustomModelData:102003,HideFlags:6,Unbreakable:1b}"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "name": "",
+        "amount": 100,
+        "operation": "addition",
+        "id": "3c46d93d-1ebb-4eb9-9461-7e09da1bb168",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "10",
+        "amount": 0.1,
+        "operation": "addition",
+        "id": "58c0e706-5600-43a3-901f-e90cb0e0e126",
+        "slot": "mainhand"
+      }
+    ]
+  }
+]

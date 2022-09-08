@@ -41,7 +41,7 @@
       {
         "attribute": "minecraft:generic.attack_damage",
         "name": "",
-        "amount": 4,
+        "amount": 3,
         "operation": "addition",
         "id": "0fb7f01a-159e-49ff-af81-de7f6f0c9195",
         "slot": "mainhand"
@@ -55,7 +55,6 @@
   {
     "function": "minecraft:set_enchantments",
     "enchantments": {
-      "minecraft:power": 3,
       "minecraft:knockback": 1,
       "minecraft:infinity": 1
     },

@@ -31,6 +31,7 @@ scoreboard objectives add entityid.28 dummy
 scoreboard objectives add entityid.29 dummy
 scoreboard objectives add entityid.30 dummy
 scoreboard objectives add entityid.31 dummy
+scoreboard objectives add entity.playerDeath deathCount
 scoreboard players set #loaded entityid 1
 scoreboard objectives add const dummy
 scoreboard players set 2 const 2

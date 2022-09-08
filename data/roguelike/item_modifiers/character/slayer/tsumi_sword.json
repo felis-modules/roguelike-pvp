@@ -3,7 +3,7 @@
     "function": "minecraft:set_name",
     "name": {
       "text": "죄의 대검",
-      "color": "light_purple",
+      "color": "aqua",
       "bold": false,
       "italic": false
     }
@@ -12,14 +12,20 @@
     "function": "minecraft:set_lore",
     "lore": [
       {
-        "text": "금단의 제사에 사용된 검",
+        "text": "의식에 사용된 제단의 검",
         "color": "gray",
         "bold": false,
         "italic": false
       },
       {
-        "text": "그 죄악의 정도는 말로 표현할 수 없다.",
+        "text": "",
         "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "데미지 +13.5",
+        "color": "green",
         "bold": false,
         "italic": false
       }
@@ -39,15 +45,15 @@
       {
         "attribute": "minecraft:generic.movement_speed",
         "name": "speed",
-        "amount": -0.01,
-        "operation": "addition",
+        "amount": -0.20,
+        "operation": "multiply_base",
         "id": "127c21e6-43ee-401b-9ac4-392f9c171cc9",
         "slot": "mainhand"
       },
       {
         "attribute": "minecraft:generic.attack_damage",
         "name": "",
-        "amount": 17,
+        "amount": 0.1,
         "operation": "addition",
         "id": "933b4c7c-4313-4d7a-bd96-926ee7b2e5aa",
         "slot": "mainhand"
@@ -55,7 +61,7 @@
       {
         "attribute": "minecraft:generic.attack_speed",
         "name": "",
-        "amount": -3.55,
+        "amount": 100,
         "operation": "addition",
         "id": "70d813ff-65b8-4f45-a07a-1397e76875e8",
         "slot": "mainhand"
@@ -64,6 +70,6 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{slsword:1b,CustomModelData:1122,Unbreakable:1b,HideFlags:4}"
+    "tag": "{atktype:1b,slsword:1b,CustomModelData:1122,Unbreakable:1b,HideFlags:6}"
   }
 ]

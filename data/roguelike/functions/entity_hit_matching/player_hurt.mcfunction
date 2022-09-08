@@ -1,3 +1,3 @@
 # @s : player on hurt
 
-function roguelike:character/player_hurt
+execute as @s[type=player] run function roguelike:character/player_hurt

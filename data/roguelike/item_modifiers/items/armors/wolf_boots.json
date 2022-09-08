@@ -23,14 +23,6 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "attribute": "minecraft:generic.max_health",
-        "name": "",
-        "amount": 4,
-        "operation": "addition",
-        "id": "eef8b1ec-f5d3-470f-9ced-79f106242f3c",
-        "slot": "feet"
-      },
-      {
         "attribute": "minecraft:generic.attack_speed",
         "name": "",
         "amount": 0.06,

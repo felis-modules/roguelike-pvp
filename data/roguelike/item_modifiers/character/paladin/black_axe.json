@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_name",
     "name": {
-      "text": "신성한 칠흑의 단날 도끼",
+      "text": "신성한 검은 도끼",
       "color": "light_purple",
       "bold": false,
       "italic": false
@@ -12,8 +12,20 @@
     "function": "minecraft:set_lore",
     "lore": [
       {
-        "text": "번개와 광기를 이끌던 옛 마신의 도끼",
+        "text": "번개를 이끌던 옛 마신의 무구",
         "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "데미지 +5.5",
+        "color": "green",
         "bold": false,
         "italic": false
       }
@@ -25,7 +37,7 @@
       {
         "attribute": "minecraft:generic.attack_speed",
         "name": "",
-        "amount": -2.6,
+        "amount": 100,
         "operation": "addition",
         "id": "5ea3120a-a706-43c4-bcf6-b4ecb9490f99",
         "slot": "mainhand"
@@ -33,7 +45,7 @@
       {
         "attribute": "minecraft:generic.attack_damage",
         "name": "",
-        "amount": 7,
+        "amount": 0.1,
         "operation": "addition",
         "id": "4fb9b6d7-a385-49e5-8518-38fa35e467e2",
         "slot": "mainhand"
@@ -42,6 +54,6 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{tanker_ulti:1b,HideFlags:4,Unbreakable:1b,CustomModelData:19307}"
+    "tag": "{atktype:2b,tanker_ulti:1b,HideFlags:6,Unbreakable:1b,CustomModelData:19307}"
   }
 ]

@@ -1,0 +1,1 @@
+# execute as @a[tag=!assassin] run scoreboard players set @s as_stack 0

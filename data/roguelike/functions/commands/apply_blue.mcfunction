@@ -7,3 +7,5 @@ item modify entity @s armor.head roguelike:items/armors/blue_helmet
 item modify entity @s armor.chest roguelike:items/armors/blue_chestplate
 item modify entity @s armor.legs roguelike:items/armors/blue_leggings
 item modify entity @s armor.feet roguelike:items/armors/blue_boots
+
+item replace entity @s armor.head with air

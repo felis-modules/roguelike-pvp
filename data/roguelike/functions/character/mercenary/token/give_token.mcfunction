@@ -1,1 +1,0 @@
-give @s iron_ingot{display:{Name:'{"text":"투쟁의 의지","color":"light_purple","bold":false,"italic":false}',Lore:['{"text":"탈주기사들도 그들만의 긍지가 있다..","color":"gray","bold":false,"italic":false}']},mc_token:1b,CustomModelData:100000,invparse:200001}

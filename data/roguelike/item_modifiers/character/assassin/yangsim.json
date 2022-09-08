@@ -1,5 +1,51 @@
 [
   {
+    "function": "minecraft:set_name",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "as_smoke"
+        },
+        "range": 1
+      }
+    ],
+    "name": {
+      "text": "암살자의 연막탄",
+      "color": "light_purple",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "as_smoke"
+        },
+        "range": 1
+      }
+    ],
+    "lore": [
+      {
+        "text": "암살자의 주특기인 연막술을 펼친다.",
+        "color":"gray",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{HideFlags:127}"
+  },
+  {
     "function": "minecraft:limit_count",
     "limit": 2,
     "conditions": [

@@ -1,1 +1,1 @@
-execute as @s[scores={cmd_state_givemana=1}] run function roguelike:items/mana_potion_64
+execute as @s[scores={cmd_state_givemana=1}] run function roguelike:items/leg_64

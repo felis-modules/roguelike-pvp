@@ -11,4 +11,6 @@ item modify entity @s armor.chest roguelike:items/armors/wolf_chestplate
 item modify entity @s armor.legs roguelike:items/armors/wolf_leggings
 item modify entity @s armor.feet roguelike:items/armors/wolf_boots
 
-item replace entity @s container.27 with iron_ingot{tp:1b}
+item replace entity @s container.27 with iron_ingot{display:{Name:'{"text":"점멸 곡검","color":"aqua","bold":false,"italic":false}',Lore:['{"text":"오른손에 들자마자 전방으로 7칸 점멸한다.","color":"gray","bold":false,"italic":false}','{"text":"가능한 경우 벽을 통과할 수 있다.","color":"gray","bold":false,"italic":false}']},CustomModelData:1109,tp:1b}
+
+item replace entity @s armor.head with air
