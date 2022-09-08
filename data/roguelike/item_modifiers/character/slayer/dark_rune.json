@@ -19,6 +19,33 @@
       },
       {
         "text": ""
+      },
+      {
+        "text": "왼손에 있을 때 우클릭 :: 스킬발동",
+        "color": "green",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "name": "",
+        "amount": 100,
+        "operation": "addition",
+        "id": "47ae1985-0a76-4e2f-9828-ea473f050cb7",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "",
+        "amount": -2,
+        "operation": "addition",
+        "id": "a8469545-f29b-4495-b573-1b17141aeb3a",
+        "slot": "mainhand"
       }
     ]
   },

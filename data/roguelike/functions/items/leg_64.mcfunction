@@ -1,0 +1,1 @@
+give @s minecraft:cooked_rabbit{display:{Name:'{"text":"쑤쑤의 뒷다리","color":"aqua","bold":false,"italic":false}'},CustomModelData:19132} 64

@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_name",
     "name": {
-      "text": "신성한 칠흑의 단날 도끼",
+      "text": "신성한 검은 도끼",
       "color": "light_purple",
       "bold": false,
       "italic": false
@@ -12,8 +12,20 @@
     "function": "minecraft:set_lore",
     "lore": [
       {
-        "text": "번개와 광기를 이끌던 옛 마신의 도끼",
+        "text": "번개를 이끌던 옛 마신의 무구",
         "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "데미지 +5.5",
+        "color": "green",
         "bold": false,
         "italic": false
       }
@@ -42,6 +54,6 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{atktype:2b,tanker_ulti:1b,HideFlags:4,Unbreakable:1b,CustomModelData:19307}"
+    "tag": "{atktype:2b,tanker_ulti:1b,HideFlags:6,Unbreakable:1b,CustomModelData:19307}"
   }
 ]

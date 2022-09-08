@@ -16,6 +16,18 @@
         "color": "gray",
         "bold": false,
         "italic": false
+      },
+      {
+        "text": "",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "데미지 +16",
+        "color": "green",
+        "bold": false,
+        "italic": false
       }
     ]
   },
@@ -58,6 +70,6 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{atktype:1b,slsword:1b,CustomModelData:1121,Unbreakable:1b,HideFlags:4}"
+    "tag": "{atktype:1b,slsword:1b,CustomModelData:1121,Unbreakable:1b,HideFlags:6}"
   }
 ]

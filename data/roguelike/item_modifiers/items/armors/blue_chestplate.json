@@ -58,6 +58,6 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{display:{color:720978},HideFlags:68,Unbreakable:1b}"
+    "tag": "{display:{color:720978},HideFlags:70,Unbreakable:1b}"
   }
 ]

@@ -74,6 +74,6 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{Unbreakable:1,HideFlags:5,color:10496040}"
+    "tag": "{Unbreakable:1,HideFlags:7,color:10496040}"
   }
 ]

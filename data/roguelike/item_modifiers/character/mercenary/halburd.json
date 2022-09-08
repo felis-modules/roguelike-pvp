@@ -16,12 +16,24 @@
         "color": "gray",
         "bold": false,
         "italic": false
+      },
+      {
+        "text": "",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "데미지 +6",
+        "color": "green",
+        "bold": false,
+        "italic": false
       }
     ]
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{atktype:3b,invparse:200000,halburd:2b,CustomModelData:102003,HideFlags:4,Unbreakable:1b}"
+    "tag": "{atktype:3b,invparse:200000,halburd:2b,CustomModelData:102003,HideFlags:6,Unbreakable:1b}"
   },
   {
     "function": "minecraft:set_attributes",

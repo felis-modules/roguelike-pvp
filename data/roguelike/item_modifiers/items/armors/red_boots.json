@@ -25,17 +25,9 @@
       {
         "attribute": "minecraft:generic.max_health",
         "name": "",
-        "amount": 8,
+        "amount": 2,
         "operation": "addition",
         "id": "a8c92c20-ca37-47e7-91e1-848d842f19f5",
-        "slot": "feet"
-      },
-      {
-        "attribute": "minecraft:generic.attack_speed",
-        "name": "",
-        "amount": 0.12,
-        "operation": "multiply_base",
-        "id": "9cccee0a-a9c6-4668-b0c9-4db208caa6a1",
         "slot": "feet"
       },
       {
@@ -44,14 +36,6 @@
         "amount": 0.04,
         "operation": "multiply_total",
         "id": "ad143370-43f2-4e29-86f5-e439dbfca03f",
-        "slot": "feet"
-      },
-      {
-        "attribute": "minecraft:generic.attack_damage",
-        "name": "",
-        "amount": 0.04,
-        "operation": "multiply_total",
-        "id": "4b0b82b3-075e-4598-a75f-75d80262dfd7",
         "slot": "feet"
       },
       {

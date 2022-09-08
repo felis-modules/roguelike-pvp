@@ -1,8 +1,9 @@
 
+execute store result score @s[scores={as_pearl=2}] RP_COOL1 run data get storage roguelike:rp rp_as_cool1
+execute store result score @s[scores={as_smoke=3}] RP_COOL2 run data get storage roguelike:rp rp_as_cool2
 
-
-execute as @a[tag=assassin,scores={RP_COOL1=0},tag=!RP_spause1] run function roguelike:character/assassin/give_pearl
-execute as @a[tag=assassin,scores={RP_COOL2=0},tag=!RP_spause2] run function roguelike:character/assassin/give_smoke
+execute as @s[scores={RP_COOL1=..1}] run function roguelike:character/assassin/pearl/give_pearl
+execute as @s[scores={RP_COOL2=..1}] run function roguelike:character/assassin/smoke/give_smoke
 
 
 #effect give @a[tag=nuker,nbt=!{Inventory:[{id:"minecraft:diamond_helmet",Slot:103b,tag:{hood:1b}}]}] slowness 2 6 true
