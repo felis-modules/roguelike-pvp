@@ -24,7 +24,7 @@
         "italic": false
       },
       {
-        "text": "데미지 +16",
+        "text": "데미지 +13.5",
         "color": "green",
         "bold": false,
         "italic": false
@@ -45,8 +45,8 @@
       {
         "attribute": "minecraft:generic.movement_speed",
         "name": "speed",
-        "amount": -0.01,
-        "operation": "addition",
+        "amount": -0.20,
+        "operation": "multiply_base",
         "id": "127c21e6-43ee-401b-9ac4-392f9c171cc9",
         "slot": "mainhand"
       },

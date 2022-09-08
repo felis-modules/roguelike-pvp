@@ -19,6 +19,7 @@ scoreboard objectives add cd_uuid3 dummy
 scoreboard objectives add const dummy
 scoreboard objectives add cd_var dummy
 
+scoreboard players set 2 const 2
 scoreboard players set 4 const 4
 scoreboard players set 8 const 8
 scoreboard players set 20 const 20

@@ -2,8 +2,8 @@
 # tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
 ## assertions
 
-# say 들어온 데미지 (단위 0.1 반 하트 (하트 한개 = 20))
-# tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
+say 들어온 데미지 (단위 0.1 반 하트 (하트 한개 = 20))
+tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
 
 ## calculate resistance buffs on hurtter : editted by roguelike-pvp
 execute store result score .resistance cd_dmg run data get entity @s ActiveEffects[{Id:11}].Amplifier
@@ -15,6 +15,9 @@ execute if score .resistance cd_dmg matches 2 run scoreboard players operation @
 execute if score .resistance cd_dmg matches 3 run scoreboard players operation @s cd_dmg *= 20 const
 execute if score .resistance cd_dmg matches 4.. run scoreboard players operation @s cd_dmg *= 0 const
 scoreboard players operation @s cd_dmg /= 100 const
+
+say 들어온 데미지 (저항처리) (단위 0.1 반 하트 (하트 한개 = 20))
+tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
 
 ## calculates the armor if the damage is not penetrating
 execute store result score @s cd_armor run attribute @s minecraft:generic.armor get 10
@@ -33,14 +36,15 @@ scoreboard players operation @s cd_hp_e -= @s cd_dmg
 scoreboard players operation @s cd_hp_max -= @s cd_hp_e
 scoreboard players operation @s cd_hp_e -= @s cd_abs
 
+execute if entity @s[scores={cd_dmg=1..}] at @s run playsound entity.generic.hurt master @a ~ ~ ~ 1 1 0
 ## assertions
 
-# say 들어온 데미지 (단위 0.1 반 하트 (하트 한개 = 20))
-# tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
-# say 계산후의 현재 체력
-# tellraw @a {"score":{"name":"@s","objective":"cd_hp_e"}}
-# say 계산후 최대체력으로부터 현재 체력까지의 차이값
-# tellraw @a {"score":{"name":"@s","objective":"cd_hp_max"}}
+say 들어온 데미지 (단위 0.1 반 하트 (하트 한개 = 20))
+tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
+say 계산후의 현재 체력
+tellraw @a {"score":{"name":"@s","objective":"cd_hp_e"}}
+say 계산후 최대체력으로부터 현재 체력까지의 차이값
+tellraw @a {"score":{"name":"@s","objective":"cd_hp_max"}}
 
 execute if score @s cd_hp_e matches ..0 run kill @s
 effect give @s instant_health 1 7 true

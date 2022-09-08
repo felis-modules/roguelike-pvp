@@ -20,3 +20,5 @@ execute if entity @a[scores={sl_dark_rune=140}] run tellraw @a [{"text":"[클래
 execute store result score @s[scores={sl_dark_rune=140}] RP_COOL1 run data get storage roguelike:rp rp_sl_cool1
 
 scoreboard players remove @s[scores={sl_dark_rune=1..}] sl_dark_rune 1
+
+execute as @a[tag=slayer,scores={RP_WEAPON_COOL=..16}] run attribute @s generic.attack_damage modifier remove 2c52968e-b6de-4331-b72e-1e6c3f234fad

@@ -12,4 +12,4 @@ execute store result score @s[scores={RP_COOL2=..1}] RP_COOL2 run data get stora
 
 tellraw @s[scores={RP_COOL1=1}] {"text":"[클래스 PVP] 다크 룬 검 사용 가능","color":"gray","bold":false,"italic":false}
 
-effect give @a[tag=slayer,nbt={SelectedItem:{tag:{darkrune:1b}}}] speed 2 1 false
+effect give @a[tag=slayer,nbt={SelectedItem:{tag:{darkrune:1b}}}] speed 2 0 false
