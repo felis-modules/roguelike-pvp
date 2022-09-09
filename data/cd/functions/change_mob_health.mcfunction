@@ -11,8 +11,8 @@ execute if score .resistance cd_dmg matches 3 run scoreboard players operation @
 execute if score .resistance cd_dmg matches 4.. run scoreboard players operation @s cd_dmg *= 0 const
 scoreboard players operation @s cd_dmg /= 100 const
 
-say 처리전 : 들어온 데미지 (단위 0.1 반 하트 (하트 한개 = 20))
-tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
+# say 처리전 : 들어온 데미지 (단위 0.1 반 하트 (하트 한개 = 20))
+# tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
 
 ## calculates the armor if the damage is not penetrating
 execute store result score @s cd_armor run data get entity @s Attributes[{Name:"minecraft:generic.armor"}].Base 10
@@ -33,12 +33,12 @@ execute if score @s cd_hp_e matches ..0 run kill @s
 
 ## assertions
 
-say 처리후 : 들어온 데미지 (단위 0.1 반 하트 (하트 한개 = 20))
-tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
-say 계산후의 현재 체력
-tellraw @a {"score":{"name":"@s","objective":"cd_hp_e"}}
-say 계산후 최대체력으로부터 현재 체력까지의 차이값
-tellraw @a {"score":{"name":"@s","objective":"cd_hp_max"}}
+# say 처리후 : 들어온 데미지 (단위 0.1 반 하트 (하트 한개 = 20))
+# tellraw @a {"score":{"name":"@s","objective":"cd_dmg"}}
+# say 계산후의 현재 체력
+# tellraw @a {"score":{"name":"@s","objective":"cd_hp_e"}}
+# say 계산후 최대체력으로부터 현재 체력까지의 차이값
+# tellraw @a {"score":{"name":"@s","objective":"cd_hp_max"}}
 
 scoreboard players reset @s cd_dmg
 execute store result storage cd:entity Health float 0.1 run scoreboard players get @s cd_hp_e

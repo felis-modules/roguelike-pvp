@@ -30,7 +30,7 @@
         "italic": false
       },
       {
-        "text": "공격속도 +0.45",
+        "text": "공격속도 +0.58",
         "color": "green",
         "bold": false,
         "italic": false
@@ -73,7 +73,7 @@
       {
         "attribute": "minecraft:generic.attack_speed",
         "name": "",
-        "amount": -3.55,
+        "amount": -3.42,
         "operation": "addition",
         "id": "70d813ff-65b8-4f45-a07a-1397e76875e8",
         "slot": "mainhand"
