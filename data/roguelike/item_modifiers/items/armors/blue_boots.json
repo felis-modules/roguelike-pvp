@@ -45,14 +45,6 @@
         "operation": "multiply_base",
         "id": "fbeb3afd-16d9-49cf-8646-9586257dac89",
         "slot": "feet"
-      },
-      {
-        "attribute": "minecraft:generic.max_health",
-        "name": "",
-        "amount": -2,
-        "operation": "addition",
-        "id": "0cb75803-6c76-491e-9171-bca9edbf6aaf",
-        "slot": "feet"
       }
     ]
   },

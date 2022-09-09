@@ -28,12 +28,30 @@
         "color": "green",
         "bold": false,
         "italic": false
+      },
+      {
+        "text": "공격속도 +2",
+        "color": "green",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "크리티컬 추가데미지 없음",
+        "color": "green",
+        "bold": false,
+        "italic": false
       }
     ]
   },
   {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:sharpness": 10
+    }
+  },
+  {
     "function": "minecraft:set_nbt",
-    "tag": "{atktype:3b,invparse:200000,halburd:2b,CustomModelData:102003,HideFlags:6,Unbreakable:1b}"
+    "tag": "{atktype:3b,invparse:200000,halburd:2b,CustomModelData:102003,HideFlags:7,Unbreakable:1b}"
   },
   {
     "function": "minecraft:set_attributes",
@@ -41,7 +59,7 @@
       {
         "attribute": "minecraft:generic.attack_speed",
         "name": "",
-        "amount": 100,
+        "amount": -2,
         "operation": "addition",
         "id": "3c46d93d-1ebb-4eb9-9461-7e09da1bb168",
         "slot": "mainhand"
@@ -49,7 +67,7 @@
       {
         "attribute": "minecraft:generic.attack_damage",
         "name": "10",
-        "amount": 0.1,
+        "amount": 0,
         "operation": "addition",
         "id": "58c0e706-5600-43a3-901f-e90cb0e0e126",
         "slot": "mainhand"

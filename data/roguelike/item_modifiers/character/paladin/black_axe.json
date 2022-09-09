@@ -45,7 +45,7 @@
       {
         "attribute": "minecraft:generic.attack_damage",
         "name": "",
-        "amount": 0.1,
+        "amount": 6,
         "operation": "addition",
         "id": "4fb9b6d7-a385-49e5-8518-38fa35e467e2",
         "slot": "mainhand"

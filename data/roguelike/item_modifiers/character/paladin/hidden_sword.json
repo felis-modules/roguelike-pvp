@@ -2,8 +2,8 @@
   {
     "function": "minecraft:set_name",
     "name": {
-      "text": "장인의 명검",
-      "color": "light_purple",
+      "text": "암월의 검",
+      "color": "aqua",
       "bold": false,
       "italic": false
     }
@@ -12,8 +12,32 @@
     "function": "minecraft:set_lore",
     "lore": [
       {
-        "text": "동방 명장이 숨겨둔 가문의 은검",
+        "text": "동방 명장이 왕실 친위대에 하사한 물품",
         "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "데미지 +6",
+        "color": "green",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "공격속도 +1.5",
+        "color": "green",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "크리티컬 추가데미지 +3",
+        "color": "green",
         "bold": false,
         "italic": false
       }
@@ -48,6 +72,6 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{HideFlags:5,Unbreakable:1b,CustomModelData:133280}"
+    "tag": "{tanker_ulti:1b,HideFlags:7,Unbreakable:1b,CustomModelData:133280}"
   }
 ]
