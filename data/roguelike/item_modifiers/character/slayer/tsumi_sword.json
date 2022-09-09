@@ -24,7 +24,19 @@
         "italic": false
       },
       {
-        "text": "데미지 +13.5",
+        "text": "데미지 +16",
+        "color": "green",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "공격속도 +0.45",
+        "color": "green",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "크리티컬 추가데미지 없음",
         "color": "green",
         "bold": false,
         "italic": false
@@ -45,7 +57,7 @@
       {
         "attribute": "minecraft:generic.movement_speed",
         "name": "speed",
-        "amount": -0.20,
+        "amount": -0.2,
         "operation": "multiply_base",
         "id": "127c21e6-43ee-401b-9ac4-392f9c171cc9",
         "slot": "mainhand"
@@ -53,7 +65,7 @@
       {
         "attribute": "minecraft:generic.attack_damage",
         "name": "",
-        "amount": 0.1,
+        "amount": 0,
         "operation": "addition",
         "id": "933b4c7c-4313-4d7a-bd96-926ee7b2e5aa",
         "slot": "mainhand"
@@ -61,7 +73,7 @@
       {
         "attribute": "minecraft:generic.attack_speed",
         "name": "",
-        "amount": 100,
+        "amount": -3.55,
         "operation": "addition",
         "id": "70d813ff-65b8-4f45-a07a-1397e76875e8",
         "slot": "mainhand"
@@ -69,7 +81,13 @@
     ]
   },
   {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:sharpness": 30
+    }
+  },
+  {
     "function": "minecraft:set_nbt",
-    "tag": "{atktype:1b,slsword:1b,CustomModelData:1122,Unbreakable:1b,HideFlags:6}"
+    "tag": "{slsword:1b,CustomModelData:1122,Unbreakable:1b,HideFlags:7}"
   }
 ]
