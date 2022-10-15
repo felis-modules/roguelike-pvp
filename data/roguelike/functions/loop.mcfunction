@@ -4,6 +4,9 @@ function roguelike:commands/loop
 function roguelike:multiplayer/loop
 function roguelike:armor/loop
 
+# arrow damage process (all arrow damage will have 3 lower damage)
+# execute as @e[type=arrow] run function roguelike:arrow_process
+
 # Shield block sound
 execute at @a[scores={SHIELD_BLOCKED=1..}] run playsound minecraft:item.shield.block master @a[distance=..30] ~ ~ ~ 1 0.96 0
 

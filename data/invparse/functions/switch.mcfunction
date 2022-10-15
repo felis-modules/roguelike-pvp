@@ -26,21 +26,21 @@ data modify storage invparse:parsed Left.Slot set value 1b
 # execute if score .switch invparse matches 7 run data modify storage invparse:parsed Left.Slot set value 7b
 # execute if score .switch invparse matches 8 run data modify storage invparse:parsed Left.Slot set value 8b
 
-data modify block -30000000 -64 1602 Items set value [] 
-data modify block -30000000 -64 1602 Items append from storage invparse:parsed Left
-data modify block -30000000 -64 1602 Items append from storage invparse:parsed Right
+execute in overworld run data modify block -30000000 -64 1602 Items set value [] 
+execute in overworld run data modify block -30000000 -64 1602 Items append from storage invparse:parsed Left
+execute in overworld run data modify block -30000000 -64 1602 Items append from storage invparse:parsed Right
 
-item replace entity @s weapon.offhand from block -30000000 -64 1602 container.0
+execute in overworld run item replace entity @s weapon.offhand from block -30000000 -64 1602 container.0
 
-execute if score .switch invparse matches 0 run item replace entity @s container.0 from block -30000000 -64 1602 container.1
-execute if score .switch invparse matches 1 run item replace entity @s container.1 from block -30000000 -64 1602 container.1
-execute if score .switch invparse matches 2 run item replace entity @s container.2 from block -30000000 -64 1602 container.1
-execute if score .switch invparse matches 3 run item replace entity @s container.3 from block -30000000 -64 1602 container.1
-execute if score .switch invparse matches 4 run item replace entity @s container.4 from block -30000000 -64 1602 container.1
-execute if score .switch invparse matches 5 run item replace entity @s container.5 from block -30000000 -64 1602 container.1
-execute if score .switch invparse matches 6 run item replace entity @s container.6 from block -30000000 -64 1602 container.1
-execute if score .switch invparse matches 7 run item replace entity @s container.7 from block -30000000 -64 1602 container.1
-execute if score .switch invparse matches 8 run item replace entity @s container.8 from block -30000000 -64 1602 container.1
+execute in overworld run execute if score .switch invparse matches 0 run item replace entity @s container.0 from block -30000000 -64 1602 container.1
+execute in overworld run execute if score .switch invparse matches 1 run item replace entity @s container.1 from block -30000000 -64 1602 container.1
+execute in overworld run execute if score .switch invparse matches 2 run item replace entity @s container.2 from block -30000000 -64 1602 container.1
+execute in overworld run execute if score .switch invparse matches 3 run item replace entity @s container.3 from block -30000000 -64 1602 container.1
+execute in overworld run execute if score .switch invparse matches 4 run item replace entity @s container.4 from block -30000000 -64 1602 container.1
+execute in overworld run execute if score .switch invparse matches 5 run item replace entity @s container.5 from block -30000000 -64 1602 container.1
+execute in overworld run execute if score .switch invparse matches 6 run item replace entity @s container.6 from block -30000000 -64 1602 container.1
+execute in overworld run execute if score .switch invparse matches 7 run item replace entity @s container.7 from block -30000000 -64 1602 container.1
+execute in overworld run execute if score .switch invparse matches 8 run item replace entity @s container.8 from block -30000000 -64 1602 container.1
 
 data modify storage invparse:parsed Right set value {}
 data modify storage invparse:parsed Left set value {}

@@ -5,7 +5,7 @@ scoreboard players set .query invparse 100031
 
 function invparse:query_hotbar
 
-data modify storage invparse:parsed Item.tag.ChargedProjectiles set value [{id:"minecraft:tipped_arrow",Count:1b,tag:{CustomPotionEffects:[{Id:19b,Amplifier:2b,Duration:80,ShowParticles:1b}]}},{},{}]
+data modify storage invparse:parsed Item.tag.ChargedProjectiles set value [{id:"minecraft:tipped_arrow",Count:1b,tag:{CustomPotionEffects:[{Id:19b,Amplifier:2b,Duration:60,ShowParticles:1b}]}},{},{}]
 data modify storage invparse:parsed Item.tag.Charged set value 1b
 
 function invparse:update_hotbar

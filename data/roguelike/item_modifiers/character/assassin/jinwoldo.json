@@ -26,19 +26,19 @@
           "italic": false
         },
         {
-          "text": "데미지 +17.5",
+          "text": "데미지 +7",
           "color": "green",
           "bold": false,
           "italic": false
         },
         {
-          "text": "공격속도 +0.7",
+          "text": "공격속도 +0.6",
           "color": "green",
           "bold": false,
           "italic": false
         },
         {
-          "text": "크리티컬 추가데미지 +7",
+          "text": "크리티컬 추가데미지 +3.5",
           "color": "green",
           "bold": false,
           "italic": false
@@ -46,18 +46,12 @@
       ]
     },
     {
-      "function": "minecraft:set_enchantments",
-      "enchantments": {
-        "minecraft:sharpness": 7
-      }
-    },
-    {
       "function": "minecraft:set_attributes",
       "modifiers": [
         {
           "attribute": "minecraft:generic.attack_speed",
           "name": "",
-          "amount": -3.3,
+          "amount": -3.4,
           "operation": "addition",
           "id": "abdef5da-5afd-4893-acf7-9a2c0ae9ab1b",
           "slot": "mainhand"
@@ -73,7 +67,7 @@
         {
           "attribute": "minecraft:generic.attack_damage",
           "name": "",
-          "amount": 14,
+          "amount": 7,
           "operation": "addition",
           "id": "8632ad97-72f4-4a8f-8f1c-dc6f32583492",
           "slot": "mainhand"

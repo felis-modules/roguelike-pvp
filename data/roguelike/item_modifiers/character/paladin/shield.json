@@ -16,6 +16,18 @@
         "color": "gray",
         "bold": false,
         "italic": false
+      },
+      {
+        "text": "",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "이동속도 -12%",
+        "color": "red",
+        "bold": false,
+        "italic": false
       }
     ]
   },

@@ -1,5 +1,6 @@
 scoreboard players set @s am_tp 6
-execute if entity @s[tag=!do_not_tp_switch] run function invparse:switch
+execute as @s[scores={am_tp_lefthand=1..}] run function invparse:switch
+
 particle minecraft:dust 1 0.851 0 1 ~ ~1 ~ 0.6 0.6 0.6 2 300 force
 execute at @s run playsound minecraft:entity.blaze.ambient master @a ~ ~ ~ 1 2
 execute at @s run playsound minecraft:entity.zombie.attack_iron_door master @a ~ ~ ~ 1 0.3

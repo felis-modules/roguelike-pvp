@@ -24,7 +24,7 @@
         "italic": false
       },
       {
-        "text": "데미지 +6",
+        "text": "데미지 +5",
         "color": "green",
         "bold": false,
         "italic": false
@@ -36,7 +36,7 @@
         "italic": false
       },
       {
-        "text": "크리티컬 추가데미지 +3",
+        "text": "크리티컬 추가데미지 +2.5",
         "color": "green",
         "bold": false,
         "italic": false
@@ -63,7 +63,7 @@
       {
         "attribute": "minecraft:generic.attack_damage",
         "name": "",
-        "amount": 6,
+        "amount": 5,
         "operation": "addition",
         "id": "974ad446-a4e7-46b5-b283-14b4b61d1aac",
         "slot": "mainhand"

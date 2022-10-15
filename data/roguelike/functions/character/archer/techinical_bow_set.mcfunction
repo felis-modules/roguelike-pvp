@@ -11,4 +11,4 @@ data modify storage invparse:parsed Item.tag.Charged set value 1b
 
 function invparse:update_hotbar
 
-scoreboard players set @s ar_techshot 5
+scoreboard players set @s ar_techshot 4
